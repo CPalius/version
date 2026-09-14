@@ -1,20 +1,20 @@
 {
-  "$comment": "CPalius CMF release pointer. THIS FILE IS READ BY MACHINES - do not change its shape, only its values. For humans, see version.md and the releases/ folder.",
-  "schema": 1,
-  "channel": "stable",
-  "version": "1.1.0",
-  "released_at": "2026-09-14",
-  "critical": false,
-  "requires": {
-    "php": ">=8.4",
-    "upgrade_from": ">=1.0.0"
-  },
-  "notes": {
-    "url": "https://github.com/CPalius/version/blob/main/releases/1.1.0.md",
-    "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/1.1.0.md"
-  },
-  "download": {
-    "zip": "https://github.com/CPalius/CPalius-Core/releases/download/v1.1.0/cpalius-1.1.0.zip",
-    "sha256": "721067633864009f585998b12451329e7650d4ddadfe1e6ec1a9185dff9d6876"
-  }
+    "$comment": "CPalius CMF release pointer. THIS FILE IS READ BY MACHINES - do not change its shape, only its values. For humans, see version.md and the releases/ folder.",
+    "schema": 1,
+    "channel": "stable",
+    "version": "1.1.1",
+    "released_at": "2026-09-14",
+    "critical": false,
+    "requires": {
+        "php": ">=8.4",
+        "upgrade_from": ">=1.0.0"
+    },
+    "notes": {
+        "url": "https://github.com/CPalius/version/blob/main/releases/1.1.1.md",
+        "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/1.1.1.md"
+    },
+    "download": {
+        "zip": "https://github.com/CPalius/CPalius-Core/releases/download/v1.1.1/cpalius-1.1.1.zip",
+        "sha256": "3a93bf28887859d7173e244940c8ffe941f407b5f69af5c29970a3abe30bc044"
+    }
 }
