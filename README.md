@@ -1,107 +1,111 @@
 # CPalius Version
 
-CPalius CMF sürüm bilgisinin **tek gerçek kaynağı**. Kurulumlar bu repoyu günde
-bir kez kontrol eder ve yeni sürüm çıktığında yönetim panelinde bildirir.
+The **single source of truth** for CPalius CMF release information. Installations
+check this repository once a day and offer a one-click update when a newer
+release appears.
 
-Burada kod yoktur — yalnızca sürüm üstverisi ve sürüm notları.
+No code lives here — only release metadata and release notes.
 
 ---
 
-## Dosyalar
+## Files
 
-| Dosya | Kim okur | Amaç |
+| File | Read by | Purpose |
 |---|---|---|
-| [`latest.json`](latest.json) | **Kod** | Güncel sürüm işaretçisi. CPalius yalnızca bunu okur. |
-| [`versions.json`](versions.json) | **Kod** | Tüm sürümlerin dizini. Yükseltme yolu ve geçmiş için. |
-| [`version.md`](version.md) | İnsan | Güncel sürümün özeti ve numaralandırma kuralları. |
-| [`releases/<sürüm>.md`](releases/) | İnsan | Her sürümün tam notu: yenilikler, düzeltmeler, kırılmalar. |
+| [`latest.json`](latest.json) | **Code** | Current release pointer. This is the only file CPalius reads to decide whether an update exists. |
+| [`versions.json`](versions.json) | **Code** | Index of every release, for upgrade paths and history. |
+| [`version.md`](version.md) | Humans | Summary of the current release and the numbering rules. |
+| [`releases/<version>.md`](releases/) | Humans | Full notes per release: features, fixes, breaking changes. |
 
-### Neden hem `.json` hem `.md`?
+### Why both `.json` and `.md`?
 
-Markdown başlığından sürüm numarası ayıklamak kırılgandır — bir başlığı yeniden
-yazmak tüm kurulumların güncelleme kontrolünü bozar. `latest.json` sekiz satırdır
-ve asla belirsiz değildir. `version.md` ise insanların okuduğu belgedir.
+Extracting a version number from a Markdown heading is fragile — rewriting one
+heading would silently break the update check on every installation in the
+field. `latest.json` is eight lines and never ambiguous. `version.md` is the
+document people read.
 
 ---
 
-## Yeni sürüm yayınlama
+## Publishing a release
 
-Üç dosya değişir, sırası önemlidir:
+Three files change, and the order matters:
 
-**1. Sürüm notunu yazın**
+**1. Write the release notes**
 
-`releases/<yeni-sürüm>.md` oluşturun. Şablon: [releases/1.0.0.md](releases/1.0.0.md)
+Create `releases/<new-version>.md`. Template: [releases/1.0.0.md](releases/1.0.0.md)
 
-Şu başlıkları taşımalıdır: *Yenilikler* · *Düzeltmeler* · *Kırılmalar (varsa)* ·
-*Yükseltme notları (varsa)* · *Bilinen kısıtlar*
+It should carry these headings: *Features* · *Fixes* · *Breaking changes (if any)* ·
+*Upgrade notes (if any)* · *Known limitations*
 
-**2. `versions.json` dizinine ekleyin**
+**2. Add it to the `versions.json` index**
 
-Yeni girdi **listenin başına** eklenir.
+The new entry goes at the **top** of the list.
 
-**3. En son `latest.json`'u güncelleyin**
+**3. Update `latest.json` last**
 
-Bu dosya değiştiği anda tüm kurulumlar yeni sürümü görmeye başlar — bu yüzden
-**en son** güncellenir. Notlar henüz yayında değilken işaretçiyi ileri almak,
-kullanıcıları var olmayan bir sürüm notuna yönlendirir.
+The moment this file changes, every installation starts seeing the new release —
+which is why it goes **last**. Moving the pointer ahead of the published notes
+sends users to a release note that does not exist yet.
 
 ```jsonc
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.1.0",           // version_compare() uyumlu olmalı
+  "version": "1.1.0",           // must be version_compare()-able
   "released_at": "2026-10-01",
-  "critical": false,            // true ise panel uyarıyı kapatılamaz gösterir
+  "critical": false,            // true renders the panel notice as non-dismissible
   "requires": {
     "php": ">=8.4",
-    "upgrade_from": ">=1.0.0"   // bundan eski sürümler önce ara sürüme çıkmalı
+    "upgrade_from": ">=1.0.0"   // older installs must step through an interim release first
   },
   "notes": {
     "url": "https://github.com/CPalius/version/blob/main/releases/1.1.0.md",
     "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/1.1.0.md"
   },
-  "download": {                 // çevrimiçi güncelleme açıldığında doldurulur
-    "zip": null,
-    "sha256": null
+  "download": {
+    "zip": "https://.../cpalius-1.1.0.zip",
+    "sha256": "<sha256 of that archive>"
   }
 }
 ```
 
+> `download.sha256` is not optional once `download.zip` is set. The updater
+> refuses an archive whose digest does not match, which is the only thing
+> standing between a compromised mirror and every installation that trusts this
+> file.
+
 ---
 
-## Sürüm numaralandırma
+## Version numbering
 
 ```
 MAJOR . MINOR . PATCH [ . HOTFIX ]
 ```
 
-- **MAJOR** — geriye dönük uyumsuz değişiklik
-- **MINOR** — yeni özellik, uyumlu
-- **PATCH** — yalnızca hata düzeltmesi
-- **HOTFIX** — yalnızca acil güvenlik yaması; normal sürümlerde yazılmaz
+- **MAJOR** — backward-incompatible change
+- **MINOR** — new feature, compatible
+- **PATCH** — bug fixes only
+- **HOTFIX** — emergency security patch only; omitted from normal releases
 
-Tüm numaralar PHP `version_compare()` ile sıralanabilir olmalıdır.
+Every number must sort correctly under PHP `version_compare()`.
 
 ---
 
-## Kurulumlar bunu nasıl okur
+## How installations consume this
 
 ```
-CPalius (cron, günde 1 kez)
+CPalius (cron, once a day)
   → GET https://raw.githubusercontent.com/CPalius/version/main/latest.json
-  → version_compare(latest, kurulu)
-  → sonuç cp_settings içine yazılır
-  → AACP paneli ve site altbilgisi bu kaydı okur
+  → version_compare(latest, installed)
+  → result stored in cp_settings
+  → AACP panel and site footer read that record
 ```
 
-Ağ çağrısı **yalnızca cron sırasında** yapılır. Sayfa isteği hiçbir zaman
-GitHub'a bağlanmaz — ağ kesintisi siteyi yavaşlatmaz veya düşürmez.
-
-`download.zip` alanı doldurulduğunda aynı işaretçi çevrimiçi güncelleme için de
-kullanılacaktır; `sha256` indirilen arşivin doğrulanması içindir.
+The network call happens **only during cron**. A page request never contacts
+GitHub, so an outage cannot slow the site down or take it offline.
 
 ---
 
-## Lisans
+## License
 
 [LICENSE](LICENSE)

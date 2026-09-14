@@ -1,51 +1,51 @@
-# CPalius CMF — Güncel Sürüm
+# CPalius CMF — Current Release
 
-> **1.0.0** · 2026-09-14 · kanal: `stable`
+> **1.0.0** · 2026-09-14 · channel: `stable`
 
-Bu dosya **insanlar içindir**. CPalius kurulumları sürüm kontrolünü
-[`latest.json`](latest.json) üzerinden yapar — sürüm numarasını değiştirirken
-**her iki dosyayı da** güncelleyin.
-
----
-
-## Bu sürümde ne var
-
-İlk kararlı sürüm. Tam liste: [releases/1.0.0.md](releases/1.0.0.md)
-
-**Öne çıkanlar**
-
-- Modül sistemi, rol/yetenek tabanlı yetkilendirme, bildirim ve global arama altyapısı
-- 10 modül: Forum, Blog, Pages, Media, Menu, Seo, Roadmap, Whitepaper, Widget, Importer
-- Forum: bölüm hiyerarşisi, anket, ek dosya, taslak, konu bölme/birleştirme, ban/susturma, izin matrisi
-- Importer: WordPress, Joomla, MyBB, XenForo ve CSV içe aktarımı
-- Seo: JSON-LD şema grafiği, kaynak bazlı sitemap
-- Çok dilli içerik ve arayüz
-- AACP yönetim paneli, `cp:doctor` tanılama komutu
-- Sürüm etiketli güncelleme kancaları
+This file is **for humans**. Installations check for updates through
+[`latest.json`](latest.json) — when you change the version, change **both**.
 
 ---
 
-## Sürüm geçmişi
+## What is in this release
 
-| Sürüm | Tarih | Kanal | Notlar |
+First stable release. Full notes: [releases/1.0.0.md](releases/1.0.0.md)
+
+**Highlights**
+
+- Module system, role/capability authorisation, notification and global search infrastructure
+- Ten modules: Forum, Blog, Pages, Media, Menu, Seo, Roadmap, Whitepaper, Widget, Importer
+- Forum: section hierarchy, polls, attachments, drafts, topic split/merge, ban/mute, permission matrix
+- Importer: WordPress, Joomla, MyBB, XenForo and CSV
+- Seo: JSON-LD schema graph, per-source sitemaps
+- Multilingual content and interface
+- AACP administration panel, `cp:doctor` diagnostics
+- Version-tagged update hooks
+
+---
+
+## Release history
+
+| Version | Date | Channel | Notes |
 |---|---|---|---|
 | 1.0.0 | 2026-09-14 | stable | [releases/1.0.0.md](releases/1.0.0.md) |
 
 ---
 
-## Sürüm numaralandırma
+## Version numbering
 
 ```
 MAJOR . MINOR . PATCH [ . HOTFIX ]
   1   .   2   .   3   .    1
 ```
 
-| Segment | Ne zaman artar |
+| Segment | Increments when |
 |---|---|
-| **MAJOR** | Geriye dönük uyumsuz değişiklik — modül API'si kırılır, elle müdahale gerektiren şema değişikliği olur |
-| **MINOR** | Yeni özellik, geriye dönük uyumlu |
-| **PATCH** | Yalnızca hata düzeltmesi |
-| **HOTFIX** | Yalnızca acil güvenlik yaması. Normal sürümlerde yazılmaz (`1.2.3`, `1.2.3.0` değil) |
+| **MAJOR** | A backward-incompatible change — the module API breaks, or a schema change needs manual intervention |
+| **MINOR** | A new feature, backward compatible |
+| **PATCH** | Bug fixes only |
+| **HOTFIX** | An emergency security patch only. Omitted from normal releases (`1.2.3`, never `1.2.3.0`) |
 
-Tüm numaralar PHP `version_compare()` ile karşılaştırılabilir olmalıdır —
-güncelleme kancaları sürümleri bu fonksiyonla sıralar.
+Every number must be comparable with PHP `version_compare()` — update hooks are
+ordered with that function, so a value it cannot parse sorts wrong and runs data
+migrations out of sequence.

@@ -1,5 +1,5 @@
 {
-  "$comment": "CPalius CMF surum isaretcisi. BU DOSYA MAKINE TARAFINDAN OKUNUR - bicimi degistirmeyin, yalnizca degerleri guncelleyin. Insan tarafi icin version.md ve releases/ klasorune bakin.",
+  "$comment": "CPalius CMF release pointer. THIS FILE IS READ BY MACHINES - do not change its shape, only its values. For humans, see version.md and the releases/ folder.",
   "schema": 1,
   "channel": "stable",
   "version": "1.0.0",
