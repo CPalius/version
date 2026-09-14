@@ -37,6 +37,12 @@ Create `releases/<new-version>.md`. Template: [releases/1.0.0.md](releases/1.0.0
 It should carry these headings: *Features* · *Fixes* · *Breaking changes (if any)* ·
 *Upgrade notes (if any)* · *Known limitations*
 
+> **Do not use Markdown tables.** These notes are rendered inside the AACP panel
+> by a deliberately small CommonMark subset that escapes raw HTML — it supports
+> headings, lists, emphasis, code and links, but not tables, which would appear
+> to the operator as raw `| pipe | text |`. Use a bulleted list with a bold
+> label instead; it reads correctly both here and in the panel.
+
 **2. Add it to the `versions.json` index**
 
 The new entry goes at the **top** of the list.
