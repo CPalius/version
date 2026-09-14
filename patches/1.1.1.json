@@ -1,0 +1,47 @@
+{
+    "schema": 1,
+    "version": "1.1.1",
+    "base": "1.1.0",
+    "released_at": "2026-09-14",
+    "critical": false,
+    "summary": "Yarim kalan guncellemeden kurtarma: zaman siniri kaldirildi, devam et/geri al eklendi",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v1.1.1/",
+    "files": [
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "8bab4a574a67c0adcd443364e19a383098b4cc34e3edfb4c13c7887def9e9a4a",
+            "size": 2301
+        },
+        {
+            "path": "cp-core/src/Core/Version/CoreUpdater.php",
+            "action": "write",
+            "sha256": "dda4f51b6935295f6dbf953a62895af58dc47677a8e60b12230e3881654364a0",
+            "size": 23179
+        },
+        {
+            "path": "cp-core/src/Controller/Admin/AACPUpdateController.php",
+            "action": "write",
+            "sha256": "566094ec98ca86af7079702e07f5b7c287da014d336b5bddcaa6023621acf494",
+            "size": 12812
+        },
+        {
+            "path": "cp-core/templates/aacp/updates/index.html.twig",
+            "action": "write",
+            "sha256": "5a30277ebb5594747e2c15db859eec79609cdb625bb28f4555bc2e5df661b2ae",
+            "size": 20227
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "b51fce8e1cdde1d1a12b0123d5d56651f54a8109811cb5011595f0b946c5bbdf",
+            "size": 182692
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "ae3e40d77a5aeda1676db1d03f6c90297031dd420bf83999f85b700ffd7c2477",
+            "size": 175168
+        }
+    ]
+}
