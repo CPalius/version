@@ -1,0 +1,20 @@
+{
+  "$comment": "CPalius CMF surum isaretcisi. BU DOSYA MAKINE TARAFINDAN OKUNUR - bicimi degistirmeyin, yalnizca degerleri guncelleyin. Insan tarafi icin version.md ve releases/ klasorune bakin.",
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.0.0",
+  "released_at": "2026-09-14",
+  "critical": false,
+  "requires": {
+    "php": ">=8.4",
+    "upgrade_from": ">=1.0.0"
+  },
+  "notes": {
+    "url": "https://github.com/CPalius/version/blob/main/releases/1.0.0.md",
+    "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/1.0.0.md"
+  },
+  "download": {
+    "zip": null,
+    "sha256": null
+  }
+}

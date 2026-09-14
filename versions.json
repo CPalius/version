@@ -1,0 +1,14 @@
+{
+  "$comment": "Tum CPalius CMF surumlerinin dizini. En yeni en ustte. Yukseltme yolu hesaplamak ve eski surum notlarini gostermek icin kullanilir.",
+  "schema": 1,
+  "versions": [
+    {
+      "version": "1.0.0",
+      "released_at": "2026-09-14",
+      "channel": "stable",
+      "critical": false,
+      "summary": "Ilk kararli surum.",
+      "notes": "releases/1.0.0.md"
+    }
+  ]
+}
