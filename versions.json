@@ -3,6 +3,15 @@
   "schema": 1,
   "versions": [
     {
+      "version": "1.1.0",
+      "released_at": "2026-09-14",
+      "channel": "stable",
+      "critical": false,
+      "codename": "Liman",
+      "summary": "Remote storage targets (S3, R2, FTP), off-site backups, an image CDN, and file-level patch updates.",
+      "notes": "releases/1.1.0.md"
+    },
+    {
       "version": "1.0.0",
       "released_at": "2026-09-14",
       "channel": "stable",

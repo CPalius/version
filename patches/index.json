@@ -1,0 +1,5 @@
+{
+  "$comment": "File-level patches, newest first. READ BY MACHINES - do not change the shape, only the values. 'base' is the version a patch upgrades FROM; an installation is offered only the patch whose base equals its running version, so intermediate versions can never be skipped. Publish one patch per step, or ship a full release. See SURUM_YAYINLAMA.md section 9.",
+  "schema": 1,
+  "patches": []
+}
