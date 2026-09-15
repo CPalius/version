@@ -3,6 +3,14 @@
   "schema": 1,
   "patches": [
     {
+      "version": "1.1.2",
+      "base": "1.1.1",
+      "released_at": "2026-09-16",
+      "critical": false,
+      "summary": "Cok dilli e-posta sablonlari, e-posta/kullanici adi degisikliginde yonetici onayi, itibar icin konu baglantisi, 404 log gurultusu.",
+      "manifest": "https://raw.githubusercontent.com/CPalius/version/main/patches/1.1.2.json"
+    },
+    {
       "version": "1.1.1",
       "base": "1.1.0",
       "released_at": "2026-09-14",

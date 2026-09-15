@@ -3,6 +3,14 @@
   "schema": 1,
   "versions": [
     {
+      "version": "1.1.2",
+      "released_at": "2026-09-16",
+      "channel": "stable",
+      "critical": false,
+      "summary": "Per-locale, admin-editable mail templates; e-mail/username changes need admin approval; reputation takes a link instead of a topic; 404s stop filling the error log.",
+      "notes": "releases/1.1.2.md"
+    },
+    {
       "version": "1.1.1",
       "released_at": "2026-09-14",
       "channel": "stable",

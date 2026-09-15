@@ -1,0 +1,323 @@
+{
+    "schema": 1,
+    "version": "1.1.2",
+    "base": "1.1.1",
+    "released_at": "2026-09-16",
+    "critical": false,
+    "summary": "Cok dilli e-posta sablonlari, e-posta/kullanici adi degisikliginde yonetici onayi, itibar icin konu baglantisi, 404 log gurultusu",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v1.1.2/",
+    "files": [
+        {
+            "path": "cp-content/modules/Blog/Controller/PostFrontController.php",
+            "action": "write",
+            "sha256": "228f7831a03a368820a153af1b202306be4abdc167cc942fa0344470cb856d17",
+            "size": 13693
+        },
+        {
+            "path": "cp-content/modules/Forum/Controller/ForumProfileController.php",
+            "action": "write",
+            "sha256": "7bce1cfb37bfa94b3ce38ad7e2bb3c0201f32ee6a95ced0b285e87e27edfdc91",
+            "size": 9028
+        },
+        {
+            "path": "cp-content/modules/Forum/Entity/ForumUserReputation.php",
+            "action": "write",
+            "sha256": "9564878fec6eb74b5636bd63382384387832bc8b0e3b75d5ce28c6069a85c08a",
+            "size": 4781
+        },
+        {
+            "path": "cp-content/modules/Forum/Install/ReputationSchema.php",
+            "action": "write",
+            "sha256": "0e2d3ed8ac7d3305a708717e746232d70ec4db21f5431b64ab6838105ea585fb",
+            "size": 2012
+        },
+        {
+            "path": "cp-content/modules/Forum/Resources/config/services.yaml",
+            "action": "write",
+            "sha256": "787648ba3ef4c9c1f86c6091d3bacf138a06d955cadf6b8681a12ba5febc2215",
+            "size": 1785
+        },
+        {
+            "path": "cp-content/modules/Forum/Resources/migrations/20260916_forum_reputation_topic_url.sql",
+            "action": "write",
+            "sha256": "e42d832a47f86fcdd1e1b2b5f4a868048146a9752541f21a6bc30cb2c3d343eb",
+            "size": 899
+        },
+        {
+            "path": "cp-content/modules/Forum/Service/ForumReputationService.php",
+            "action": "write",
+            "sha256": "4bb9a04bd82312cdea70d0bbff79ceaf226ea16354c3e9c28a8e2fe827039100",
+            "size": 8950
+        },
+        {
+            "path": "cp-content/modules/Forum/module.json",
+            "action": "write",
+            "sha256": "59b3464f4e46595b2441dfb91a459149d42e915b333ba975ea16c8e5b9e047a7",
+            "size": 324
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/partials/_reputation_modal.html.twig",
+            "action": "write",
+            "sha256": "2e61c78e5a1f7631c54e8d76f638097602181c6bec7e285478213e75e088e11c",
+            "size": 2875
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/profile.html.twig",
+            "action": "write",
+            "sha256": "597f5b9cae88c53de69fe2a747d234424e7eb80b51fa2dcccaf95a7c5996fa4a",
+            "size": 10575
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "41da4c3b7957ef2e0dd1985639685dab5764da8e423b6978e5ab2015c9d69f17",
+            "size": 186068
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "468b9b59ddb90e8284420ad6ad348e50708a9b736f6c991ed7db2fc957002759",
+            "size": 194311
+        },
+        {
+            "path": "cp-core/config/packages/framework.yaml",
+            "action": "write",
+            "sha256": "e8062f6af6d655fdc363a0a6fa9dbcc6d0224dd812242a89d37dfaf3bda93fe8",
+            "size": 3260
+        },
+        {
+            "path": "cp-core/config/services.yaml",
+            "action": "write",
+            "sha256": "be74ac9f33e0d983ef7fb7b8307d531f8ca95cfa22b3cfea078deb4f6a81b77b",
+            "size": 17689
+        },
+        {
+            "path": "cp-core/migrations/Version20260916100000.php",
+            "action": "write",
+            "sha256": "d7ebc93762e627606e27f80e975eef320d82914b539554a6ed1bb3b3e30ef8a3",
+            "size": 1895
+        },
+        {
+            "path": "cp-core/src/Controller/AccountController.php",
+            "action": "write",
+            "sha256": "65652a61985c8aeb262d35a2c7b2324d3b43eeca8ccb3a841380c28b7c7445b2",
+            "size": 12032
+        },
+        {
+            "path": "cp-core/src/Controller/AccountProfileController.php",
+            "action": "write",
+            "sha256": "88d840aafb6f8903c6843dba5aab0dad664d4090a5dcc39535b6ecd60938405d",
+            "size": 11061
+        },
+        {
+            "path": "cp-core/src/Controller/Admin/AACPMailTemplateController.php",
+            "action": "write",
+            "sha256": "b7a9c6965071b99681452b83f34840977d126a4060ce45eee01a04fac9522d7b",
+            "size": 9742
+        },
+        {
+            "path": "cp-core/src/Controller/Admin/AACPUpdateController.php",
+            "action": "write",
+            "sha256": "feaa1d0056bfdcf8c0c64e8e6e317460a99dca7bd47ae1d2aeea14657f3a34fa",
+            "size": 13232
+        },
+        {
+            "path": "cp-core/src/Controller/Admin/AACPUserController.php",
+            "action": "write",
+            "sha256": "832de6b08d18c17809e83ea37448eede3c21aa75fbe5d28b64f950ba72bbd148",
+            "size": 25602
+        },
+        {
+            "path": "cp-core/src/Core/Account/AccountIdentityChangeService.php",
+            "action": "write",
+            "sha256": "0bc50cc60aa2e6c1733759849671178fe3f5afa958f261940f8ed1374bdd3d3a",
+            "size": 9681
+        },
+        {
+            "path": "cp-core/src/Core/Account/AccountMailer.php",
+            "action": "write",
+            "sha256": "843cb27ca54e454066357aa52a87b039f511989ff975cd82b0b8adf1bce6ed4d",
+            "size": 2190
+        },
+        {
+            "path": "cp-core/src/Core/Account/AccountRegistrationService.php",
+            "action": "write",
+            "sha256": "ff2e6671e6745fb7efa68ec5bcb068a2610a103c5bf6f8e61581ac3de0f09b8a",
+            "size": 10806
+        },
+        {
+            "path": "cp-core/src/Core/Localization/Service/LocaleScope.php",
+            "action": "write",
+            "sha256": "d24f007bc693c38968da7d1ead8547003ccda5a0a199221df7104e0bb875c7a0",
+            "size": 1654
+        },
+        {
+            "path": "cp-core/src/Core/Localization/Service/UserLocaleResolver.php",
+            "action": "write",
+            "sha256": "ab4816b24f0218f789ef59feb24de0a942d8787519740718164f4fe7c0e5a24b",
+            "size": 1898
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Entity/MailTemplate.php",
+            "action": "write",
+            "sha256": "8cf0c907d9532c1cc08a74db24e5e3da03c7d5a4243ef57627a49be83b47c4e8",
+            "size": 4660
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Repository/MailTemplateRepository.php",
+            "action": "write",
+            "sha256": "851b4f1c0f16fdcb6f85771b0018f7b87f5ea19c0521b04ccf6fd1332baf8486",
+            "size": 1878
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/CoreMailTemplates.php",
+            "action": "write",
+            "sha256": "5298686b8480c726ecc2ca0c02c3c03381db31ff1acdf7e294ebd91bf7656db5",
+            "size": 5668
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateDefinition.php",
+            "action": "write",
+            "sha256": "3216371ec9d94ac8ea41146603c1ce3ca4e75f7a7a2700771310ee35a3483561",
+            "size": 1876
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateManager.php",
+            "action": "write",
+            "sha256": "70652e3e25a8887b75edffb415a5f6c544f382b2faec8481759a8d2d4444e8d4",
+            "size": 7375
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateProviderInterface.php",
+            "action": "write",
+            "sha256": "160a104872c72ac8cb6d39e5ca4d540ea02796abd845628b704ace502d6d65e4",
+            "size": 621
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateRegistry.php",
+            "action": "write",
+            "sha256": "412a00c2b1ef55ff5617b295d47c7c3ef8fa45dfc89d32e7d5487706136a8380",
+            "size": 1777
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateRenderer.php",
+            "action": "write",
+            "sha256": "e85d61f77b4120e10d0342557f54b98ecb3a10d1457af863f0abdd968f7f8058",
+            "size": 8267
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/MailTemplateSchema.php",
+            "action": "write",
+            "sha256": "c5fbb6581db8152186075dfe157041980b38725049f8f95b57f183ae27602b25",
+            "size": 2656
+        },
+        {
+            "path": "cp-core/src/Core/Mail/Template/RenderedMail.php",
+            "action": "write",
+            "sha256": "9bcd3454bd2613c49f8032445a21210748bd0b6636796ba13851276f3b0c01f1",
+            "size": 561
+        },
+        {
+            "path": "cp-core/src/Core/Notification/Channel/MailInstantChannel.php",
+            "action": "write",
+            "sha256": "e63563c88128a5032f2abe2b1fc658c64f4fdbc296303a9790f289cbf7c1b55b",
+            "size": 1742
+        },
+        {
+            "path": "cp-core/src/Core/Notification/MessageHandler/SendNotificationMailMessageHandler.php",
+            "action": "write",
+            "sha256": "da3415d8afebdaf833d6ffc7cabdeb6e37e5923ea9b2a22a108c79ac01be4506",
+            "size": 4110
+        },
+        {
+            "path": "cp-core/src/Core/Notification/Task/NotificationDigestTask.php",
+            "action": "write",
+            "sha256": "8d014b95a9f93f3b03abf1f73e425d6ab92138f7f0f15fa5f753151b9d44ae92",
+            "size": 3912
+        },
+        {
+            "path": "cp-core/src/Core/Settings/Definitions/AccountRegistrationSettings.php",
+            "action": "write",
+            "sha256": "55ca816a9ebf1901972e7aab20e5ad4608dd6c2b9de57f3a1ef46cf98d834416",
+            "size": 2643
+        },
+        {
+            "path": "cp-core/src/Core/Taxonomy/Repository/TermRepository.php",
+            "action": "write",
+            "sha256": "0596f05ad8f2bc38b3ab17e90881911cdc0553b778562fa8a27f1ed0faf2642f",
+            "size": 3143
+        },
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "35b7d5531c6e9040ac21be40fb1deb902a89347572f32b666459b0769251b9f7",
+            "size": 2301
+        },
+        {
+            "path": "cp-core/src/Core/Version/ReleaseChecker.php",
+            "action": "write",
+            "sha256": "a0eb2766930dccaa9acce2c4dd0a97293f92092b49ef1da5748f4bd9a708afbb",
+            "size": 15502
+        },
+        {
+            "path": "cp-core/src/Entity/User.php",
+            "action": "write",
+            "sha256": "7254eec7fe12175c6cc543c1e7a8b245c405e992a895ffdb7394d878a60047ac",
+            "size": 13361
+        },
+        {
+            "path": "cp-core/src/Form/AccountProfileType.php",
+            "action": "write",
+            "sha256": "a5c8b8b1a85200707405db464304ddf6bba23310409eec87421530eb37ae343a",
+            "size": 3449
+        },
+        {
+            "path": "cp-core/src/Form/DTO/AccountProfileFormModel.php",
+            "action": "write",
+            "sha256": "e4cf45a8a71352d4da8e86a6c27ec4d29cbac535f8da4002e3b8f998c7846304",
+            "size": 1008
+        },
+        {
+            "path": "cp-core/src/Repository/CategoryRepository.php",
+            "action": "write",
+            "sha256": "bd52354531a25ee87124391af3ebe979d3580269e156b726f1a9a1c0dbf3b64a",
+            "size": 5899
+        },
+        {
+            "path": "cp-core/src/Repository/UserRepository.php",
+            "action": "write",
+            "sha256": "55bdfb3df2b50de4071bdb4ac2c2deb8725aa61e0e09c0d638c6262f30ee2e68",
+            "size": 8024
+        },
+        {
+            "path": "cp-core/templates/aacp/mail_templates/edit.html.twig",
+            "action": "write",
+            "sha256": "527ad02ada6b1bab50bbc637e9cde7f492ba2d2d544dce516cc983786f243e4a",
+            "size": 7637
+        },
+        {
+            "path": "cp-core/templates/aacp/mail_templates/index.html.twig",
+            "action": "write",
+            "sha256": "8a6676a9e39f662cc7c1b4d8c36364797eb23c63c83265a358fee941fce8b150",
+            "size": 2897
+        },
+        {
+            "path": "cp-core/templates/aacp/users/identity_requests.html.twig",
+            "action": "write",
+            "sha256": "5563a987258b462cae8f6d0772994358a036e6a5500d6ff60fd15b309bb2d93c",
+            "size": 4041
+        },
+        {
+            "path": "cp-core/templates/account/profile.html.twig",
+            "action": "write",
+            "sha256": "758e886b86b0962cac367aa3d6cab7435468725f23aaa5128e2e25b5f7e65522",
+            "size": 6288
+        },
+        {
+            "path": "cp-core/templates/account/register.html.twig",
+            "action": "write",
+            "sha256": "b615a67abb0b62176c237766f71b9fc32560b99291300ef9cf13a3b76689da9f",
+            "size": 6768
+        }
+    ]
+}
