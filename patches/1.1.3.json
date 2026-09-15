@@ -1,0 +1,47 @@
+{
+    "schema": 1,
+    "version": "1.1.3",
+    "base": "1.1.2",
+    "released_at": "2026-09-16",
+    "critical": false,
+    "summary": "Yama uygulandiktan sonra bayat konteynerle sayfa render edilmesi duzeltildi",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v1.1.3/",
+    "files": [
+        {
+            "path": "cp-content/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "857b715e8031d4c7a722d9bc1632eac7a6e9053e0fcc93017614ff0e655977e3",
+            "size": 186328
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "c0ca0e532bb185b3b8a0249b8bc89bfe4b5c15cdacaef2f3b24922096f337544",
+            "size": 194574
+        },
+        {
+            "path": "cp-core/src/Controller/Admin/AACPUpdateController.php",
+            "action": "write",
+            "sha256": "9b68615a46680a3a01ad36404f8c455c236053f4ee3ef990477cb0285d3770a9",
+            "size": 15214
+        },
+        {
+            "path": "cp-core/src/Core/Cache/CacheRebuildManager.php",
+            "action": "write",
+            "sha256": "37aadb472e6f00a294efad37c288d609867de96a5d1240f7a1d3e0fe55081451",
+            "size": 11854
+        },
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "006f53e249e67473db97745013ff06218072283a675245697f2a3e0351931fee",
+            "size": 2301
+        },
+        {
+            "path": "cp-core/templates/aacp/updates/index.html.twig",
+            "action": "write",
+            "sha256": "3a27a92e482f2833c7b1a98b0489c1fa9c0085519533036e6e4d961acfa2270f",
+            "size": 20493
+        }
+    ]
+}
