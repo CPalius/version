@@ -1,0 +1,101 @@
+{
+    "schema": 1,
+    "version": "2.0.3",
+    "base": "2.0.2",
+    "released_at": "2026-09-16",
+    "critical": false,
+    "summary": "Ozel mesajlar studio'da gorunmez; menuye otomatik ekleme kalkti; public footer surum ve kurucu tasimaz.",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v2.0.3/",
+    "files": [
+        {
+            "path": "cp-content/modules/Messages/Admin/MessagesDesk.php",
+            "action": "write",
+            "sha256": "22d7b23fd815f0689ac553f072b0f96d96111c2c9120fc8960e179f899f6d187",
+            "size": 2053
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesSettingsAdminController.php",
+            "action": "write",
+            "sha256": "c4396b08708e47a5c0c00f2a242e7050ca659b4dc370bf214fd8216c00a6cca4",
+            "size": 6321
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesThreadAdminController.php",
+            "action": "delete"
+        },
+        {
+            "path": "cp-content/modules/Messages/Install/ModuleInstaller.php",
+            "action": "write",
+            "sha256": "2188c8e70e0617b501a8a1a742be919310530b6bda0dd272fc47a9069a40b3db",
+            "size": 6926
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/dashboard.html.twig",
+            "action": "write",
+            "sha256": "5686b607267de4a41cea00d993762adb047dd3e708d4da508652aa0add69cda5",
+            "size": 3608
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/reports/index.html.twig",
+            "action": "write",
+            "sha256": "b5c59cee0a9803e1f17603f3a5152061ab45128a7e2a8566e3a91753ae66e0cc",
+            "size": 2984
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/threads/index.html.twig",
+            "action": "delete"
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/threads/show.html.twig",
+            "action": "delete"
+        },
+        {
+            "path": "cp-content/modules/Messages/module.json",
+            "action": "write",
+            "sha256": "81bb310471a83ab3bc285606eb38e9784840f73696715e1ff6ebb35343bf10c7",
+            "size": 394
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseSettingsAdminController.php",
+            "action": "write",
+            "sha256": "7109ff5c9a9e0e60d7770332c6e6d65aab518172d94c7ba381c2d73bd6c66cec",
+            "size": 7496
+        },
+        {
+            "path": "cp-content/modules/Showcase/Install/ModuleInstaller.php",
+            "action": "write",
+            "sha256": "361cb33c5df57a1654a5151d5f44f4c4dada763b8a0c9c6c90bc45650a4099ab",
+            "size": 15399
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "feb39be10f5c768fc2dd6c388f9ec3035de92c2ee7a3df8dd468e55d41fee10b",
+            "size": 24066
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "51a134759b9d8c39f1d9963d0bebf779275c4daf5049b3b1f149fffc45171197",
+            "size": 25136
+        },
+        {
+            "path": "cp-content/modules/Showcase/module.json",
+            "action": "write",
+            "sha256": "787d328fb4b3532cdca4d3ccf77216cb865a6925f17e266e99144daed93b0905",
+            "size": 451
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/partials/footer.html.twig",
+            "action": "write",
+            "sha256": "03b55e8c3cd61d5d7945685adfafe305f0dbde523a975c4e1731cb9516bfd9a9",
+            "size": 2164
+        },
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "c32518bc967658e8d6168e28ed42c3dfd673bd111dd52290ef7fc6f63d94171a",
+            "size": 2301
+        }
+    ]
+}

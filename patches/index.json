@@ -3,6 +3,14 @@
   "schema": 1,
   "patches": [
     {
+      "version": "2.0.3",
+      "base": "2.0.2",
+      "released_at": "2026-09-16",
+      "critical": false,
+      "summary": "Ozel mesajlar studio'da gorunmez; menuye otomatik ekleme kalkti; public footer surum ve kurucu tasimaz.",
+      "manifest": "https://raw.githubusercontent.com/CPalius/version/main/patches/2.0.3.json"
+    },
+    {
       "version": "2.0.2",
       "base": "2.0.1",
       "released_at": "2026-09-16",
