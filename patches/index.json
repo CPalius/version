@@ -3,6 +3,14 @@
   "schema": 1,
   "patches": [
     {
+      "version": "2.0.2",
+      "base": "2.0.1",
+      "released_at": "2026-09-16",
+      "critical": false,
+      "summary": "Mesajlasma ve vitrin modulleri (AACP'den etkinlestirin), canli gelen kutusu nabzi, baslik bildirimleri.",
+      "manifest": "https://raw.githubusercontent.com/CPalius/version/main/patches/2.0.2.json"
+    },
+    {
       "version": "1.1.3",
       "base": "1.1.2",
       "released_at": "2026-09-16",

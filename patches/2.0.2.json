@@ -1,0 +1,1185 @@
+{
+    "schema": 1,
+    "version": "2.0.2",
+    "base": "2.0.1",
+    "released_at": "2026-09-16",
+    "critical": false,
+    "summary": "Mesajlasma ve vitrin modulleri (AACP'den etkinlestirin), canli gelen kutusu nabzi, baslik bildirimleri.",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v2.0.2/",
+    "files": [
+        {
+            "path": "cp-content/config/sync/user.role.editor.yaml",
+            "action": "write",
+            "sha256": "dac92cc49a09c9badd73a724a77fae453a683d79f93e529041213d199c63f098",
+            "size": 1775
+        },
+        {
+            "path": "cp-content/config/sync/user.role.member.yaml",
+            "action": "write",
+            "sha256": "37050db139458df88e5ad7c82aaebd225161486f618e278c1ade2494e0fcd709",
+            "size": 923
+        },
+        {
+            "path": "cp-content/modules/Blog/module.json",
+            "action": "write",
+            "sha256": "f79af564d0b5a0457c65471456c033928af4dbe9bf34b31d6d17ac9cfc090239",
+            "size": 325
+        },
+        {
+            "path": "cp-content/modules/Forum/Resources/migrations/20260904000000_forum_presence.sql",
+            "action": "write",
+            "sha256": "1be34d3654660e291e84f0e3da1ef570b52a88dadcf9b7784487671ddd70fd8d",
+            "size": 2013
+        },
+        {
+            "path": "cp-content/modules/Forum/module.json",
+            "action": "write",
+            "sha256": "ed726f76028ed1502bfcf88fb8f5755bee57599da16e759a29d0c7e22c409744",
+            "size": 324
+        },
+        {
+            "path": "cp-content/modules/Importer/module.json",
+            "action": "write",
+            "sha256": "247f20efb44bb43d3a0f2f09416c38fddfdf26cc07db8c1df6ae50664e0f3644",
+            "size": 422
+        },
+        {
+            "path": "cp-content/modules/Media/module.json",
+            "action": "write",
+            "sha256": "85ab3d8155f5eec2203103cfa93fe89af19a55034b7d3a7c935863fb406646dd",
+            "size": 314
+        },
+        {
+            "path": "cp-content/modules/Menu/module.json",
+            "action": "write",
+            "sha256": "5d6efa890700366b3de1687eddae69fe803e5de74730c38f50feffb0afc7d4ad",
+            "size": 288
+        },
+        {
+            "path": "cp-content/modules/Messages/Account/MessagesAccountProfileExtension.php",
+            "action": "write",
+            "sha256": "32b1fafca2899a4b9b82020fd90bdcf1ad9973c750b27d47a1939685998ed539",
+            "size": 2125
+        },
+        {
+            "path": "cp-content/modules/Messages/Admin/MessagesDesk.php",
+            "action": "write",
+            "sha256": "ddca88f59023a1fae64c5195fcb7aa93c2e2d479c04bedbc883b845ec5d04730",
+            "size": 2465
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesDashboardController.php",
+            "action": "write",
+            "sha256": "3ece489b678f46180e65dc821d926731c3f772667bb24be7d65cab538e098b32",
+            "size": 1525
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesQuotaAdminController.php",
+            "action": "write",
+            "sha256": "c658968364ed8888323f32fa667232fbc4b8d0020257e75ace4ffeb7e63e8553",
+            "size": 3866
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesReportAdminController.php",
+            "action": "write",
+            "sha256": "39199f07247ce85f16f06ccb626902b0dd52796adce1d8cbb1e496fcfc8d7391",
+            "size": 3581
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesSettingsAdminController.php",
+            "action": "write",
+            "sha256": "b84f6e851eff3d81f9a275f07af41356dff1e211664426a918bbcaaa3d973d7b",
+            "size": 6331
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/Admin/MessagesThreadAdminController.php",
+            "action": "write",
+            "sha256": "ccdbfe51eb33a2b71d6bf069723be8ea8d4da9a777e7f5f6b44e87a6b9065457",
+            "size": 5502
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/MessagesFrontController.php",
+            "action": "write",
+            "sha256": "ca9acf3132c08bf53fb7f517f838926195a1d024ccb91150244cc04133c10905",
+            "size": 17658
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/Message.php",
+            "action": "write",
+            "sha256": "fa9daa778e9885372935b723f693df1106f27a9cbc15177258a2f605e892587c",
+            "size": 3308
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/MessageBlock.php",
+            "action": "write",
+            "sha256": "1c5f564bd8eb960cb8edbf168c2b6b1127c035212fee71e1232187c9bccfb2ad",
+            "size": 1929
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/MessageParticipant.php",
+            "action": "write",
+            "sha256": "5027ef1d4a3a4503cc59c92d6f9a49b390cd363882c26604bca6c728fdc61952",
+            "size": 3411
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/MessageReport.php",
+            "action": "write",
+            "sha256": "df23d64f352498076d4cca296997c6a8297666c069d427ef2a1d7a6b1e17df8a",
+            "size": 4864
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/MessageRestriction.php",
+            "action": "write",
+            "sha256": "b621ae16187e52d2653180a3b3dc1a02980cf48364d230c6e2ac84e69fd6e8c6",
+            "size": 3321
+        },
+        {
+            "path": "cp-content/modules/Messages/Entity/MessageThread.php",
+            "action": "write",
+            "sha256": "e74f0426190c09cfe7e84728106d4509cdde6f5661f02d046d7eb23fe9e04182",
+            "size": 7986
+        },
+        {
+            "path": "cp-content/modules/Messages/Hooks/MessagesAttributeHooks.php",
+            "action": "write",
+            "sha256": "a65136fd85bbc8c9c3ea06847ccd0058f14654ede9dfbf158ecad2e534920ea0",
+            "size": 6565
+        },
+        {
+            "path": "cp-content/modules/Messages/Inbox/MessagesInboxPulseChannel.php",
+            "action": "write",
+            "sha256": "f89e83bcf36554348f4d6786f5337fa9521702a50e8da9e9314ba95fd8f996d2",
+            "size": 3547
+        },
+        {
+            "path": "cp-content/modules/Messages/Install/ModuleInstaller.php",
+            "action": "write",
+            "sha256": "a2a94a449e44b2e62501258ff8f43382f0ca1093ff41692d639e7a4ac56aa24d",
+            "size": 7172
+        },
+        {
+            "path": "cp-content/modules/Messages/Mail/MessagesMailTemplates.php",
+            "action": "write",
+            "sha256": "bd04783e611f069feb6ba3dd7f9167829e715e4a336e0ba52ba6ce1f3302263c",
+            "size": 831
+        },
+        {
+            "path": "cp-content/modules/Messages/MessagesModule.php",
+            "action": "write",
+            "sha256": "81dd7821fada07dc21364b2c24e91e09de58dfa630e1a7ee19e6c35a4b9dbf45",
+            "size": 157
+        },
+        {
+            "path": "cp-content/modules/Messages/README.md",
+            "action": "write",
+            "sha256": "6ee4b19792c3765272347d3c863d82d42255390b2b9362d78cc15ce73a13f8fd",
+            "size": 3100
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageBlockRepository.php",
+            "action": "write",
+            "sha256": "eb6053b277f92b015bf55687b092f816e8167f81fa20234123cd6f829d9b518a",
+            "size": 1464
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageParticipantRepository.php",
+            "action": "write",
+            "sha256": "1429cc33a523a2b29bae16bf96f08fa3a76d11e7124369109031db97f8f91b51",
+            "size": 1512
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageReportRepository.php",
+            "action": "write",
+            "sha256": "b1199dc1caf59dd0982b0c2e726606e424b2be548e15fa3ddd1538e8322e6efc",
+            "size": 1458
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageRepository.php",
+            "action": "write",
+            "sha256": "b34cfeca3a375015042a4e0259f8983b7b76309cf7f16c514a6d2ab5499daddc",
+            "size": 3571
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageRestrictionRepository.php",
+            "action": "write",
+            "sha256": "8b4909d628e54a69329a21c2214e57e5bf1a06ae2742382957254dd0e0b2f41a",
+            "size": 1243
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageThreadRepository.php",
+            "action": "write",
+            "sha256": "862f1bb46504e2e9e2cb1270958c96667a8086603642b2152da7945e2d994fda",
+            "size": 4326
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/assets/message-notify.mp3",
+            "action": "write",
+            "sha256": "82a35ee49373855a669f4aa6e142b75f0ca3a7658f6820af36d624b3a43824b4",
+            "size": 15360
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/assets/message-notify.wav",
+            "action": "write",
+            "sha256": "78f3436ccc8249f741603634867f92406d04d74ea4bb0b5314cb70b59d4fc642",
+            "size": 110294
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/config/capabilities.yaml",
+            "action": "write",
+            "sha256": "d1b9eb4672cb0917199fa5e5f90adac3a8660d1838ff3e21826f2107ddb187bc",
+            "size": 520
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/config/contributions.yaml",
+            "action": "write",
+            "sha256": "ec8540df259abf4380d9c71c390814d3d5e5ca05e44b0d9cb08128c4c16c950e",
+            "size": 714
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/config/routes.yaml",
+            "action": "write",
+            "sha256": "494082c31f51ce1d1001f3bae6bba1f3cc27400b43db3340ee9e54b5cea4af8b",
+            "size": 348
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/config/services.yaml",
+            "action": "write",
+            "sha256": "0d153165585e7e989a2f2d23a5064a6d6a2a350da6961d0eb07e81b0f6175ac0",
+            "size": 770
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/migrations/001_messages.sql",
+            "action": "write",
+            "sha256": "456b4b9f75df2d0c550a5d9cc23b27c3f802da4a02fcb2667e3f15a411b550b3",
+            "size": 6248
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "d50942f4ee4dd6702570be820cd59789e81634e5ba743f713ee8132317a41e63",
+            "size": 9642
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "5d54fff52dfa6b3edda3164b25be0f5c26f5bdc19f873d8fee4fcdb165079340",
+            "size": 9815
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/_desk_nav.html.twig",
+            "action": "write",
+            "sha256": "4e705955ab577a0fd69e83e4d32ba198fb0be5eec550c5110b3e6827549c1185",
+            "size": 926
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/dashboard.html.twig",
+            "action": "write",
+            "sha256": "52995a4664f76c254abbdbb682e8ce4ceea2d28b79bc9ac8b2edab354cb99e3e",
+            "size": 3639
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/quota/index.html.twig",
+            "action": "write",
+            "sha256": "a9a916b264c9b6a7d53aaccd1bcdd28612f0149fa5ee7d15cb2e7843a280cf53",
+            "size": 3369
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/reports/index.html.twig",
+            "action": "write",
+            "sha256": "b3a779249f0ae6edb503036b403f204a1757b0d8458a10087ccc66fe3d2471e2",
+            "size": 3134
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/settings/index.html.twig",
+            "action": "write",
+            "sha256": "193b033785f52c4f1144b4ac3740e1abf104d0780b2cd58816141c9a14fd245a",
+            "size": 5468
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/threads/index.html.twig",
+            "action": "write",
+            "sha256": "313ec873cb81c25e34b2c206c4849edbbbe70901d73b6bfcc2b05bcb57fe33cd",
+            "size": 2807
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/admin/threads/show.html.twig",
+            "action": "write",
+            "sha256": "0bbffe18dd62175dc52a499e70cd5ade22f176d08a9fe52a14b9d15d23c25458",
+            "size": 2611
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/blocked.html.twig",
+            "action": "write",
+            "sha256": "a4b246391feede324a3f7213ca4d11164836adb7672f45dc1b8c081d6f9174a2",
+            "size": 1425
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/compose.html.twig",
+            "action": "write",
+            "sha256": "cd438df2f667ac8f655c7a92d586ff3f04f2721e1897adf80750d7ba82e6991c",
+            "size": 5533
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/inbox.html.twig",
+            "action": "write",
+            "sha256": "de57603d04634ac781dcedb1a02f36cd1ca3fa9c166ff9970b5e12850e30bb7e",
+            "size": 3058
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/layout.html.twig",
+            "action": "write",
+            "sha256": "2f6097d8e7ae9a35e1cd5e1254cd197345418153f6c3e21805bac19595b9209e",
+            "size": 462
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/partials/_compose_suggest.html.twig",
+            "action": "write",
+            "sha256": "d14c9f69714e8c5af86af84e6704fccfbce750003694ccfddfa93447821efbcd",
+            "size": 5282
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/partials/_styles.html.twig",
+            "action": "write",
+            "sha256": "ca244c2317f2d9cc0db34a8d61dd251bd51c590a90bbc1fd4e3485c4aa66e0a4",
+            "size": 5914
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/partials/header_alert.html.twig",
+            "action": "write",
+            "sha256": "98c3a375e66b10b8d5322a49b79c181f246728d2343827483b8391af504822f9",
+            "size": 1945
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/partials/pagination.html.twig",
+            "action": "write",
+            "sha256": "72df5d5d48b3a5e35be06090f72ec956322f24ecfc2b87076e6e4a127c5160a6",
+            "size": 951
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/thread.html.twig",
+            "action": "write",
+            "sha256": "83480a5d0760f28f491fac4072c3b44f598b21f5b123ffb40f43713eca4344da",
+            "size": 6764
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesAccess.php",
+            "action": "write",
+            "sha256": "85588a8238347caa9db7acbe92d6a13c21998d66cc0e4fe6fde01b4317123b8a",
+            "size": 5088
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesBlockService.php",
+            "action": "write",
+            "sha256": "a90950da746f3eab14532bcee5be563bb64b57ad1bfd5ca3b7e84aba644607e4",
+            "size": 1472
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesConfig.php",
+            "action": "write",
+            "sha256": "037d0aaa6b7caebab3a5bce2734f6a33f2e7ecc368087f92e622ddcdcf1f477d",
+            "size": 3461
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesContext.php",
+            "action": "write",
+            "sha256": "185c86429da5b4e65eba2af43e3ed4900b0c23c046f9e3e4d69a350ffb72f978",
+            "size": 2166
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesDeniedException.php",
+            "action": "write",
+            "sha256": "a576d225f403c4939261ca284ffe06edf808a26fca1ab0051bec643191a78bc6",
+            "size": 517
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesModerationService.php",
+            "action": "write",
+            "sha256": "cdc83b2ef0857f8ae0821a147ccac0bd4e6d0dbfc33a9329e31e70e97322dfd6",
+            "size": 3219
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesNotificationService.php",
+            "action": "write",
+            "sha256": "f6271a0134d919ef1d7d089001ed5539b90c50d659a1da60d8e0a650019514d8",
+            "size": 1698
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesQuota.php",
+            "action": "write",
+            "sha256": "748c63eb7d5f2bcf390915af24de2f141f357aef580ee9c02a7cc704a90660de",
+            "size": 1306
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesQuotaSnapshot.php",
+            "action": "write",
+            "sha256": "be95e01957649cdc4059db0706580ca333b61f83d6f2ce6ebbad7c10e23f5b39",
+            "size": 1644
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesStatsService.php",
+            "action": "write",
+            "sha256": "8919739f7496a151c050239ede41a6bc8c6b77c75c514c628b7badaddd272a32",
+            "size": 2338
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesTemplateResolver.php",
+            "action": "write",
+            "sha256": "1a11361cc96427b84c8aa1324cde8b855e2b3d4d2f762c8abc76a258bb02a3c5",
+            "size": 1587
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesThreadManager.php",
+            "action": "write",
+            "sha256": "36d2d908d9c7b4695f85f37a936a6113bdee8059371d894ec0e5787df8c2e77c",
+            "size": 8198
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesUserLookup.php",
+            "action": "write",
+            "sha256": "45603f5176b74b943a8f9bb78ac19f13139ab6fd1b656eb9c370d470a6e108c7",
+            "size": 2202
+        },
+        {
+            "path": "cp-content/modules/Messages/Settings/MessagesSettings.php",
+            "action": "write",
+            "sha256": "7189ef820fae0dc1fcf0a9dc7843adebf48cd88ee97ab1a18141db5149664831",
+            "size": 3939
+        },
+        {
+            "path": "cp-content/modules/Messages/Tests/Integration/MessagesThreadManagerTest.php",
+            "action": "write",
+            "sha256": "515d3169f1029e74ea00669ef6346fca0048b94da2df0eadd6475cc6d777bbd2",
+            "size": 3384
+        },
+        {
+            "path": "cp-content/modules/Messages/Tests/Unit/MessagesPolicyTest.php",
+            "action": "write",
+            "sha256": "20492990cb03d2d481b6f17f69b9504ea5e5f01b5af57b50e21d4737313df34a",
+            "size": 3721
+        },
+        {
+            "path": "cp-content/modules/Messages/Twig/MessagesExtension.php",
+            "action": "write",
+            "sha256": "5f7cfaa490cb25668d531ae64efbc835d3ff1bf812ff185a1996996ce61a922a",
+            "size": 641
+        },
+        {
+            "path": "cp-content/modules/Messages/Twig/MessagesRuntime.php",
+            "action": "write",
+            "sha256": "6208e271cb0a6790f732556c6793226531fdaf87dbacb7b4b8b3206df357e6c4",
+            "size": 3519
+        },
+        {
+            "path": "cp-content/modules/Messages/module.json",
+            "action": "write",
+            "sha256": "6e49fdd104fc3b1ca2fe4b247c71e588c35c8a2ec42640106a399a80f5964817",
+            "size": 394
+        },
+        {
+            "path": "cp-content/modules/Pages/module.json",
+            "action": "write",
+            "sha256": "98d9626110de2f40724317029c37377b7e88dbb8e1386289b7569ad5d190338e",
+            "size": 359
+        },
+        {
+            "path": "cp-content/modules/Roadmap/module.json",
+            "action": "write",
+            "sha256": "8b70741352ae7017cc99536dcc2addb9b132f530a3111c08614419c48de09d53",
+            "size": 317
+        },
+        {
+            "path": "cp-content/modules/Seo/module.json",
+            "action": "write",
+            "sha256": "42d2b46fb5e44202287b46d873063abb4407f63112c6a7a527927abaedc1e3da",
+            "size": 333
+        },
+        {
+            "path": "cp-content/modules/Showcase/Admin/ShowcaseDesk.php",
+            "action": "write",
+            "sha256": "b548cbdda0f83b3a09deac7223cc06795d6659e0f45382db0959d43f017e82ab",
+            "size": 2946
+        },
+        {
+            "path": "cp-content/modules/Showcase/Api/ShowcaseApiEndpoints.php",
+            "action": "write",
+            "sha256": "b769a2def70ec68d4a38226028832fdf647c7bd0146e2bb6cb7b69e6f9caf096",
+            "size": 4080
+        },
+        {
+            "path": "cp-content/modules/Showcase/Command/DemoContent.php",
+            "action": "write",
+            "sha256": "50583c8eba2043e9ff9f372fe7be58ddd1e035f2d86e01c4c1023ee5ae38bd7a",
+            "size": 16029
+        },
+        {
+            "path": "cp-content/modules/Showcase/Command/SeedShowcaseDemoCommand.php",
+            "action": "write",
+            "sha256": "0058140363f69c446305c087c54577718c3abc097c4c1682bab7b1400f0faa6e",
+            "size": 11640
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseDashboardController.php",
+            "action": "write",
+            "sha256": "cac35bb5ed1f4138c7f5f25ee55bfae9d9576152119020a7be138c5375a821f1",
+            "size": 4741
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseFieldAdminController.php",
+            "action": "write",
+            "sha256": "a06bda0c8b1486b8d36f34323a057488ab087539c930943de324f488cf321658",
+            "size": 10426
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseItemAdminController.php",
+            "action": "write",
+            "sha256": "0d15bb90f101d9b8538709357096258dfe7bdcd629b28f5f41cbdf08e3720496",
+            "size": 21264
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseReviewAdminController.php",
+            "action": "write",
+            "sha256": "3c666166d6f56f72b9504f678eb159fb5431cdab15f977e4582defc0c5d66c4f",
+            "size": 3127
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseSettingsAdminController.php",
+            "action": "write",
+            "sha256": "ee2f8b2bb5a40b50839687065111f099f34e5fd42fce5f2e8d6533a995117acf",
+            "size": 7506
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/Admin/ShowcaseTypeAdminController.php",
+            "action": "write",
+            "sha256": "a8242e625176705a60e37c7e16971eff8dcd17925d791974a7b1461e6c372e54",
+            "size": 10817
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/ShowcaseFrontController.php",
+            "action": "write",
+            "sha256": "f233c0c4712ce5c67c2a63e3b13118629ee5192d35242e265e274fbbdfa850f1",
+            "size": 14015
+        },
+        {
+            "path": "cp-content/modules/Showcase/Controller/ShowcaseMemberController.php",
+            "action": "write",
+            "sha256": "82da078c76b87e456dabaec67f56865b7941c7fb5b60ce3c3f4a8c9d7b3dc9f4",
+            "size": 18655
+        },
+        {
+            "path": "cp-content/modules/Showcase/Dto/ShowcaseItemInput.php",
+            "action": "write",
+            "sha256": "20f544f47c9398dac0b5a2347c9717ab054478d39cf2faf1fd1ff0e140bcb789",
+            "size": 4596
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseItem.php",
+            "action": "write",
+            "sha256": "ca3321539768b9d246f1a4508252260ad4f96c9056993cb1fad23f13f336c2b1",
+            "size": 20803
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseItemIndex.php",
+            "action": "write",
+            "sha256": "24ecbf8b3e2c9c3edc1e723ffbe21fbaea26de84cf93a1a50a8c9e318052909a",
+            "size": 3999
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseItemMedia.php",
+            "action": "write",
+            "sha256": "38fc4529909665a07820a62d524a16bfd1b849c83b84d79b299e14b9673bbffa",
+            "size": 2177
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseLink.php",
+            "action": "write",
+            "sha256": "f356d96b0e2efb164a2beada1e01afb02f04585cbafb268e98fc4dea32897966",
+            "size": 4747
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseReview.php",
+            "action": "write",
+            "sha256": "3fb9f3bb389771d5d10d96cd1efbcfc2476a30006502f860e690366347ea8850",
+            "size": 4211
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseType.php",
+            "action": "write",
+            "sha256": "bde02f2179cc4127555ee1d68d1c938105768ede04c9a427c1a3bec87e78a287",
+            "size": 8301
+        },
+        {
+            "path": "cp-content/modules/Showcase/Entity/ShowcaseTypeTranslation.php",
+            "action": "write",
+            "sha256": "62623971bc837047d9f9b78a25f198382df242fc95cf779025e94e2c35b42cd5",
+            "size": 2172
+        },
+        {
+            "path": "cp-content/modules/Showcase/Hooks/ShowcaseAttributeHooks.php",
+            "action": "write",
+            "sha256": "df3671a453d0b9b18436aec2879a3549ef0adc08278a7dae3266926d81a5f742",
+            "size": 3986
+        },
+        {
+            "path": "cp-content/modules/Showcase/Install/ModuleInstaller.php",
+            "action": "write",
+            "sha256": "f894bdb72eb702ca5de2127a7666b4c6d95d32b98237b3dc6a872ac014724f09",
+            "size": 16299
+        },
+        {
+            "path": "cp-content/modules/Showcase/Query/ShowcaseFilter.php",
+            "action": "write",
+            "sha256": "68867f1f5732c3cdaf27a11a346816d8338361ea2694c0200180c80f625a878b",
+            "size": 2315
+        },
+        {
+            "path": "cp-content/modules/Showcase/README.md",
+            "action": "write",
+            "sha256": "e23b5ed5e86b6fbfa2bb45de8b93c8cdf44b6d17b6d6d03420ec4ccd34c9a14e",
+            "size": 7851
+        },
+        {
+            "path": "cp-content/modules/Showcase/Repository/ShowcaseItemIndexRepository.php",
+            "action": "write",
+            "sha256": "de6d9b4288213338f0ef96e2b229aeba71303e88dd2af8e767fc050d87276c00",
+            "size": 2228
+        },
+        {
+            "path": "cp-content/modules/Showcase/Repository/ShowcaseItemRepository.php",
+            "action": "write",
+            "sha256": "e7ae0e6cf4d9917cb6aa6ce5d3b0357c520ecef87b6ec0cc085f9d40aa5b5fb2",
+            "size": 15446
+        },
+        {
+            "path": "cp-content/modules/Showcase/Repository/ShowcaseReviewRepository.php",
+            "action": "write",
+            "sha256": "5fd118c4884f0039da192d4ade4efef9e121bf1f00d834e7c0b28cf762184389",
+            "size": 3085
+        },
+        {
+            "path": "cp-content/modules/Showcase/Repository/ShowcaseTypeRepository.php",
+            "action": "write",
+            "sha256": "4df172e89ab6419d1d56075dd52c5d1f88f7279859362f1ad176e50351d48349",
+            "size": 1940
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/assets/showcase-dashboard.js",
+            "action": "write",
+            "sha256": "298eb8b779df193f2961ca17ab25d9e4bc47bf72ed170f10a12fa337eb7dd3e4",
+            "size": 4402
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/config/capabilities.yaml",
+            "action": "write",
+            "sha256": "190282d780afcda59637eb27dfdb5423eca3d3b1ad776538add2470e7c319732",
+            "size": 1096
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/config/contributions.yaml",
+            "action": "write",
+            "sha256": "1c025af979792c2fd9cf0dd610b30ed18e6c4878a455b99bbaac8af443c93cf2",
+            "size": 2012
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/config/importmap.php",
+            "action": "write",
+            "sha256": "99c2406465ed96c3f5fd6dbca9147fa6d67038e2fff749172c0b13fc0a7adbcc",
+            "size": 333
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/config/routes.yaml",
+            "action": "write",
+            "sha256": "e9ebae193e203edbffbf39fb20c3bd25a13bbaf55f74e430e741483a9421892d",
+            "size": 567
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/config/services.yaml",
+            "action": "write",
+            "sha256": "4a517b06ee01988bef83a91e3ba3b1e92b208b05b7ea2eb031c676922e4f6843",
+            "size": 1392
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/migrations/001_showcase.sql",
+            "action": "write",
+            "sha256": "acb38c51e0fba2392336884e58e19e3c5c4b7488db90b2517dbd578296932a50",
+            "size": 8953
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "fb75f4cf79b8f874d83df59db3324506234c32b810674021f618c4add0259970",
+            "size": 24098
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "f2cc5bd22f354898bade9baba4c278f68cedc967835e6c9c30b8ba6aef680a28",
+            "size": 25179
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/_fields.html.twig",
+            "action": "write",
+            "sha256": "54cb10ddc41bba7f8445ca57a6cec87739624ee97fa431e90452dcc4ca15d7c2",
+            "size": 8002
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/_desk_nav.html.twig",
+            "action": "write",
+            "sha256": "a9419b91f6c0fa311435c979ab1cd2634715f7c3386ee7e36e0de25abdd76475",
+            "size": 1421
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/dashboard.html.twig",
+            "action": "write",
+            "sha256": "9a44059d27fa93c6a94e666745c9b06107f80d4240ff8d14cac9eac6369ef932",
+            "size": 15177
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/fields/form.html.twig",
+            "action": "write",
+            "sha256": "9b6d56fd2fad76129d2b61c94394c10ba1d82244b0a2896da6e128deabf2bba2",
+            "size": 8991
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/fields/index.html.twig",
+            "action": "write",
+            "sha256": "1c17599a256e97747878aa2e442b4f53695fab47601df90c63eacf9fb890981f",
+            "size": 5470
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/items/form.html.twig",
+            "action": "write",
+            "sha256": "db23cd33ec117ab639be36c8f3b89eabee124597efa4b7c4aacf506a72067bf2",
+            "size": 21151
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/items/index.html.twig",
+            "action": "write",
+            "sha256": "b91c4fa7f1a730ddab2732c275ebcd73c652bca770a7c7a7414c31926927da3d",
+            "size": 8587
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/items/reviews.html.twig",
+            "action": "write",
+            "sha256": "f6ff168f10be9397f9cabdc56176181472d217475f40982516e50af345b4b822",
+            "size": 2675
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/settings/index.html.twig",
+            "action": "write",
+            "sha256": "9ab10441f72559071b92ad8f42a685821b1d73c1ebb211caaf62be1bcd181492",
+            "size": 6837
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/types/form.html.twig",
+            "action": "write",
+            "sha256": "cf3300e3b026ee245b011648722c0cbbdbcae45d840a2d8edbd019626967b0e5",
+            "size": 6475
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/admin/types/index.html.twig",
+            "action": "write",
+            "sha256": "0cbe3c52eb0ff9264bd7e0d7534d5a19c4508f5080784aaf266115a413f4a7ed",
+            "size": 5731
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/index.html.twig",
+            "action": "write",
+            "sha256": "658a532a6f5ff56f1bda0158ae569f97eea19637c3caac661223c629078b620e",
+            "size": 2749
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/layout.html.twig",
+            "action": "write",
+            "sha256": "74cf9770fc4a874859b7d2a1b7d8280007a18c014595fcb68a0e78aa13229ce1",
+            "size": 851
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/member/choose_type.html.twig",
+            "action": "write",
+            "sha256": "37a556f7e2895ac0625abc4174bde5ea6b864ae5e9443d27c27c165bce372eec",
+            "size": 1317
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/member/form.html.twig",
+            "action": "write",
+            "sha256": "c7f657514c51a079d03b0f65a5a16ce967327dde3db287e6df23c79df154d690",
+            "size": 18499
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/member/index.html.twig",
+            "action": "write",
+            "sha256": "6b7c93cb1b0b8af3d03c6bca9022ee53cffb8d249cfe781d85de2d2333b4c476",
+            "size": 3435
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/not_found.html.twig",
+            "action": "write",
+            "sha256": "dc21e9b17c405bb15ea571b264b2ae4ff63cee59dbe81abb09fe80d720673104",
+            "size": 992
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/partials/_styles.html.twig",
+            "action": "write",
+            "sha256": "a99662bc978a705b75a2f39fcb7fe8a4d5d64ea7f3404f0eaea3bc5a5324d91e",
+            "size": 13069
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/partials/card.html.twig",
+            "action": "write",
+            "sha256": "850bb7dea2f9909e2602c52a4d9a42f13c5fe14ab5213de1254c47d196fb0b09",
+            "size": 2272
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/partials/filters.html.twig",
+            "action": "write",
+            "sha256": "a04b97783845b01ced13d9dd6689cff6fab1bfc82daa222a6a0216c39bf61114",
+            "size": 5672
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/partials/pagination.html.twig",
+            "action": "write",
+            "sha256": "ddb629e30c2416f2e7546013e9fb82b61c796ee3002c88b6c808cf7246361219",
+            "size": 1453
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/show.html.twig",
+            "action": "write",
+            "sha256": "0bc69f7fffe36ce52a1e59a52af9fb84fe11cd9193a33fba241d3f1b8a5eebf7",
+            "size": 18418
+        },
+        {
+            "path": "cp-content/modules/Showcase/Resources/views/front/type.html.twig",
+            "action": "write",
+            "sha256": "1c4e2b6b61693e0323711207d1bae79fc2f53bcaaf2e60a5f50820ecca7ffb79",
+            "size": 2233
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseAccess.php",
+            "action": "write",
+            "sha256": "8c01f2c1466286b5f72968d59a95c71be4b2357326553f2230534981e267631c",
+            "size": 4990
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseConfig.php",
+            "action": "write",
+            "sha256": "c92aaf63935ebf9e5198567edc57190f7127cc70f1563e00afb5cf3a230236b4",
+            "size": 3783
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseDemoImageFactory.php",
+            "action": "write",
+            "sha256": "128559a6c292f67f4cb7b170cbac72d7eec131890ed32863c88c4f1225182913",
+            "size": 6753
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseFieldIndexer.php",
+            "action": "write",
+            "sha256": "88e7aa54cde46a1b4de874566384dcec45f0c5db92ebc54875671ae0a3583480",
+            "size": 3649
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseFieldUploadHandler.php",
+            "action": "write",
+            "sha256": "c776ffd58c93ad55c0d6e9c19b4126fd3bdfd489b95e9c516c0d56c77cd7e282",
+            "size": 2777
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseItemManager.php",
+            "action": "write",
+            "sha256": "7d3fd90753b057073dc865e3b89d323f8e9cfcde01d1fbcc3449a18bda25afd2",
+            "size": 16001
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseLinkService.php",
+            "action": "write",
+            "sha256": "251a013c6ffceb22662a52d70db6a02892965eae48e4a59aad9f96241925570e",
+            "size": 9628
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseListingFilterBuilder.php",
+            "action": "write",
+            "sha256": "5621cee0057032ed14f4b65f36f062f93b0a1e4f5458463818c2051331a8cc8e",
+            "size": 10033
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseMediaService.php",
+            "action": "write",
+            "sha256": "e6854864405420e8f256254601cfa99131105c1103efa3f40f97f2d8433f959f",
+            "size": 6606
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcasePresenter.php",
+            "action": "write",
+            "sha256": "18ee42f56e99bcde47094d546075e0ff8635427e2c6c35073f69b5563de5742c",
+            "size": 8532
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcasePresetLibrary.php",
+            "action": "write",
+            "sha256": "7092a5fae20e00aa723776a4231c6d1fc8f376a16e825bb6592ac67dab4f0472",
+            "size": 11857
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseReviewService.php",
+            "action": "write",
+            "sha256": "043d22364a88bb35a2484476b267d62e98295f5a1ba3a9a4dec5a163b7dc03c3",
+            "size": 3316
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseSearchProvider.php",
+            "action": "write",
+            "sha256": "56ddcd94dff6f1bb96872cf5923f99b3db1b240921e490c69d2ffb6984761a1c",
+            "size": 2764
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseSlugger.php",
+            "action": "write",
+            "sha256": "2aa59b2ebdcb38a1e3d8b00d33645bb187a86d8dea5b3d3fba144a8d2f137e48",
+            "size": 1501
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseStatsService.php",
+            "action": "write",
+            "sha256": "90eb74ffa7cb2996e5a55e5a9b889d9b44e29179e7dde8550c34c7c737c77ae5",
+            "size": 7408
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseTemplateResolver.php",
+            "action": "write",
+            "sha256": "70686c30e87177e78cfb70891ee1b2ddb833e6902a6d77f5a23bbb461eb9e0e0",
+            "size": 2078
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseTypeManager.php",
+            "action": "write",
+            "sha256": "12e7cdd8a233084d648eaffe397ded98c1bd888456a011c2c618dce79dad93de",
+            "size": 11060
+        },
+        {
+            "path": "cp-content/modules/Showcase/Service/ShowcaseUrlValidator.php",
+            "action": "write",
+            "sha256": "dc66336f1bed9da174e4d70f31cc243bfa2b7859e97d681e8e85a3ea58c2fcb4",
+            "size": 2213
+        },
+        {
+            "path": "cp-content/modules/Showcase/Settings/ShowcaseSettings.php",
+            "action": "write",
+            "sha256": "b163d51ea6710f94ac001f591bc1a57d3b83c5cde40dd200c78309002eab5212",
+            "size": 3938
+        },
+        {
+            "path": "cp-content/modules/Showcase/ShowcaseModule.php",
+            "action": "write",
+            "sha256": "40ffbb363c45734efa7d4f8664118cd687502bb74cfe5db507cb9cac0e936114",
+            "size": 151
+        },
+        {
+            "path": "cp-content/modules/Showcase/Twig/ShowcaseExtension.php",
+            "action": "write",
+            "sha256": "51f662582d29416fa642da35a2c283a5db62a251cb1cf1db5d1a631c3719f904",
+            "size": 2134
+        },
+        {
+            "path": "cp-content/modules/Showcase/Twig/ShowcaseRuntime.php",
+            "action": "write",
+            "sha256": "83fd0d2b23971a4170a72f9b33704885794224bc6a2a354984e7b6cd5ae6f9b8",
+            "size": 7031
+        },
+        {
+            "path": "cp-content/modules/Showcase/module.json",
+            "action": "write",
+            "sha256": "0acc9bdabb4db68df2a10c4a9186771a8f38fbc7d75c27f5acdbf2e2bae2f6de",
+            "size": 451
+        },
+        {
+            "path": "cp-content/modules/Whitepaper/module.json",
+            "action": "write",
+            "sha256": "cfbf280734c608abc3685b0907ed7b64760b7baa7cfbe1d18841943b35011f59",
+            "size": 369
+        },
+        {
+            "path": "cp-content/modules/Widget/module.json",
+            "action": "write",
+            "sha256": "57efaef88fb5600822de3b1f18934f56a13516f51df774803e69b515f6a6539b",
+            "size": 287
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/dist/forum.css",
+            "action": "write",
+            "sha256": "8322a97cd6bc66b13dfc499995dbf41e294e800f3ddf72466fc7e8f80b669212",
+            "size": 70717
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/dist/main.js",
+            "action": "write",
+            "sha256": "94b9eff6cf2296f3a1a40fcf228bda69b8978748f3d68bb6190c3456934e3bc6",
+            "size": 17652
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/dist/style.css",
+            "action": "write",
+            "sha256": "77816c28a81e4b55270a6d6b7258eebcecdd75fa1c5cd0317d1af4b344c4a579",
+            "size": 140371
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/partials/_user_rail.html.twig",
+            "action": "write",
+            "sha256": "1c1b6ac5c5414201a095face24fa6726ce388d936e556082745a31454dcf407f",
+            "size": 1365
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/posts.html.twig",
+            "action": "write",
+            "sha256": "1ecebf950953bed7c7ff4d49166c45b77239854e6db1cecc362e48f73f891afd",
+            "size": 21898
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/profile.html.twig",
+            "action": "write",
+            "sha256": "9f7988813f51befee8f79fafed88643d8e2caf779c6ee79c680d9a7b63b7e752",
+            "size": 10642
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/partials/header.html.twig",
+            "action": "write",
+            "sha256": "22d5bc6012a289944ce1708448fd10e8b8aeac6cb4e629e362a5590af143d08e",
+            "size": 9710
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "a5be3b4a7d0a55570b3180703fe94223a04a171702dd441fafaadb9b47e0d749",
+            "size": 186954
+        },
+        {
+            "path": "cp-content/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "43d363dfae1c81bebd9833f51268227428f9065432250aba9db27d5c0cfb0791",
+            "size": 195215
+        },
+        {
+            "path": "cp-core/config/services.yaml",
+            "action": "write",
+            "sha256": "1031ee540a20d5a622e653eeedad7a6c4482127033202441ec8842f51ad0ba3f",
+            "size": 17909
+        },
+        {
+            "path": "cp-core/src/Controller/AccountNotificationController.php",
+            "action": "write",
+            "sha256": "5cfd5981152f6b4877a95d6a36bd89b4935a3c6c157ce22070cff8253687bd35",
+            "size": 3557
+        },
+        {
+            "path": "cp-core/src/Controller/InboxPulseController.php",
+            "action": "write",
+            "sha256": "d157680658b86c824d17bce7db4c8d4ff9c30b6df967e4f25484e83af23e1f0e",
+            "size": 1191
+        },
+        {
+            "path": "cp-core/src/Core/Inbox/InboxPulse.php",
+            "action": "write",
+            "sha256": "46e5681954ef60b29aa1b33a646efaff3ebe0d68e0a9d3e16a80d59a312b4d36",
+            "size": 1072
+        },
+        {
+            "path": "cp-core/src/Core/Inbox/InboxPulseChannelInterface.php",
+            "action": "write",
+            "sha256": "c4fada35717b92f0cfd72011d2c0c82ca5a383f46be84fdd07d6b913a7118e33",
+            "size": 457
+        },
+        {
+            "path": "cp-core/src/Core/Inbox/NotificationInboxPulseChannel.php",
+            "action": "write",
+            "sha256": "b11738b718f1896624ffb6896cf06e6d7e5da3326767f9c29d145c59f8a9ea5f",
+            "size": 1937
+        },
+        {
+            "path": "cp-core/src/Core/Module/ModuleActivator.php",
+            "action": "write",
+            "sha256": "c60863234bbb9f9808c8dffb0844a1683e941f8099c9adb87b79daf208a6e356",
+            "size": 10431
+        },
+        {
+            "path": "cp-core/src/Core/Module/ModuleInstallContext.php",
+            "action": "write",
+            "sha256": "a200ca0b563373b40dd008cdd0c835ddb569e30f5d39e61a1bfd34420a0a850e",
+            "size": 10238
+        },
+        {
+            "path": "cp-core/src/Core/Notification/NotificationInboxPresenter.php",
+            "action": "write",
+            "sha256": "554e963abb3aaff45d897da33b166b7c094dc92f37ce66fd870547bbbda009a2",
+            "size": 7573
+        },
+        {
+            "path": "cp-core/src/Core/Notification/Repository/NotificationRepository.php",
+            "action": "write",
+            "sha256": "d54ce05c3ba84d0bd04b0e905a9d828bb7cab48e162d0ff2344bc750825b7972",
+            "size": 6085
+        },
+        {
+            "path": "cp-core/src/Core/Notification/Twig/NotificationExtension.php",
+            "action": "write",
+            "sha256": "1aedfc30da5815a8d735f5468c37d72c4d69550fba94aa449365c832888996e9",
+            "size": 484
+        },
+        {
+            "path": "cp-core/src/Core/Notification/Twig/NotificationRuntime.php",
+            "action": "write",
+            "sha256": "e410bfb242948e8658dab70ae056b92af62674ae844c286b6f0173b7c69da3b4",
+            "size": 1495
+        },
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "286b119d115bdb2c2abe8f3dfd46931b4dd1d882f9e83ff8c962fca115225fcb",
+            "size": 2301
+        },
+        {
+            "path": "cp-core/src/Kernel.php",
+            "action": "write",
+            "sha256": "de83fc12933e5921a51460b705fd4bc17f404f7b78117d7cf5c5b835c5b98dfd",
+            "size": 10874
+        },
+        {
+            "path": "cp-core/tests/Unit/Core/Inbox/InboxPulseTest.php",
+            "action": "write",
+            "sha256": "9e02c9ef5949714e169392798c1851a45a75be009954eb68bed4d1ffcccf4ce4",
+            "size": 2012
+        },
+        {
+            "path": "cp-core/tests/Unit/Core/Notification/NotificationInboxPresenterTest.php",
+            "action": "write",
+            "sha256": "5b4fbaa6c087558b17615b45d45890d5fc07311b5de05c01ecc6d627daa46bba",
+            "size": 2784
+        },
+        {
+            "path": "cp-core/tests/Unit/KernelCacheDirTest.php",
+            "action": "write",
+            "sha256": "c94fcf871a82df4e006c5f086812aab062fa0f3255c37af49b16cd10b9eb8fbf",
+            "size": 1035
+        },
+        {
+            "path": "public/cp-2.0.0-recover.php",
+            "action": "delete"
+        },
+        {
+            "path": "public/themes/cpalius-website/dist/forum.css",
+            "action": "write",
+            "sha256": "8322a97cd6bc66b13dfc499995dbf41e294e800f3ddf72466fc7e8f80b669212",
+            "size": 70717
+        },
+        {
+            "path": "public/themes/cpalius-website/dist/main.js",
+            "action": "write",
+            "sha256": "94b9eff6cf2296f3a1a40fcf228bda69b8978748f3d68bb6190c3456934e3bc6",
+            "size": 17652
+        },
+        {
+            "path": "public/themes/cpalius-website/dist/style.css",
+            "action": "write",
+            "sha256": "77816c28a81e4b55270a6d6b7258eebcecdd75fa1c5cd0317d1af4b344c4a579",
+            "size": 140371
+        }
+    ]
+}
