@@ -1,55 +1,63 @@
 {
-  "$comment": "Index of every CPalius CMF release, newest first. Used to compute upgrade paths and to show past release notes.",
-  "schema": 1,
-  "versions": [
-    {
-      "version": "2.0.0",
-      "released_at": "2026-09-16",
-      "channel": "stable",
-      "critical": false,
-      "summary": "Every table gains the cp_ prefix, the database's three collations become one, and four duplicated forum tables become two. Major: renamed tables and four removed entity classes break modules that name them.",
-      "notes": "releases/2.0.0.md"
-    },
-    {
-      "version": "1.1.3",
-      "released_at": "2026-09-16",
-      "channel": "stable",
-      "critical": false,
-      "summary": "The patch installer no longer renders a page against a stale compiled container, and a failed cache purge is now reported instead of silent.",
-      "notes": "releases/1.1.3.md"
-    },
-    {
-      "version": "1.1.2",
-      "released_at": "2026-09-16",
-      "channel": "stable",
-      "critical": false,
-      "summary": "Per-locale, admin-editable mail templates; e-mail/username changes need admin approval; reputation takes a link instead of a topic; 404s stop filling the error log.",
-      "notes": "releases/1.1.2.md"
-    },
-    {
-      "version": "1.1.1",
-      "released_at": "2026-09-14",
-      "channel": "stable",
-      "critical": false,
-      "summary": "Recovery from an interrupted update: the PHP time limit is lifted, and a half-finished update can be resumed or rolled back.",
-      "notes": "releases/1.1.1.md"
-    },
-    {
-      "version": "1.1.0",
-      "released_at": "2026-09-14",
-      "channel": "stable",
-      "critical": false,
-      "codename": "Liman",
-      "summary": "Remote storage targets (S3, R2, FTP), off-site backups, an image CDN, and file-level patch updates.",
-      "notes": "releases/1.1.0.md"
-    },
-    {
-      "version": "1.0.0",
-      "released_at": "2026-09-14",
-      "channel": "stable",
-      "critical": false,
-      "summary": "First stable release.",
-      "notes": "releases/1.0.0.md"
-    }
-  ]
+    "$comment": "Index of every CPalius CMF release, newest first. Used to compute upgrade paths and to show past release notes.",
+    "schema": 1,
+    "versions": [
+        {
+            "version": "2.0.1",
+            "released_at": "2026-09-16",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Fixes a 2.0.0 update that could take a site down: migrations now run in the same request that writes the files, before anything renders.",
+            "notes": "releases/2.0.1.md"
+        },
+        {
+            "version": "2.0.0",
+            "released_at": "2026-09-16",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Every table gains the cp_ prefix, the database's three collations become one, and four duplicated forum tables become two. Major: renamed tables and four removed entity classes break modules that name them.",
+            "notes": "releases/2.0.0.md"
+        },
+        {
+            "version": "1.1.3",
+            "released_at": "2026-09-16",
+            "channel": "stable",
+            "critical": false,
+            "summary": "The patch installer no longer renders a page against a stale compiled container, and a failed cache purge is now reported instead of silent.",
+            "notes": "releases/1.1.3.md"
+        },
+        {
+            "version": "1.1.2",
+            "released_at": "2026-09-16",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Per-locale, admin-editable mail templates; e-mail/username changes need admin approval; reputation takes a link instead of a topic; 404s stop filling the error log.",
+            "notes": "releases/1.1.2.md"
+        },
+        {
+            "version": "1.1.1",
+            "released_at": "2026-09-14",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Recovery from an interrupted update: the PHP time limit is lifted, and a half-finished update can be resumed or rolled back.",
+            "notes": "releases/1.1.1.md"
+        },
+        {
+            "version": "1.1.0",
+            "released_at": "2026-09-14",
+            "channel": "stable",
+            "critical": false,
+            "codename": "Liman",
+            "summary": "Remote storage targets (S3, R2, FTP), off-site backups, an image CDN, and file-level patch updates.",
+            "notes": "releases/1.1.0.md"
+        },
+        {
+            "version": "1.0.0",
+            "released_at": "2026-09-14",
+            "channel": "stable",
+            "critical": false,
+            "summary": "First stable release.",
+            "notes": "releases/1.0.0.md"
+        }
+    ]
 }
