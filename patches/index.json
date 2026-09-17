@@ -3,6 +3,14 @@
   "schema": 1,
   "patches": [
     {
+      "version": "2.0.5",
+      "base": "2.0.4",
+      "released_at": "2026-09-18",
+      "critical": false,
+      "summary": "Mention oneri avatari tam boyut aciliyordu; mesajlara tumunu okundu isaretle geldi; Konularim sayfalaniyor; cevrimici sayisi uye/ziyaretci/arama motoru/bot olarak ayrildi.",
+      "manifest": "https://raw.githubusercontent.com/CPalius/version/main/patches/2.0.5.json"
+    },
+    {
       "version": "2.0.3",
       "base": "2.0.2",
       "released_at": "2026-09-16",

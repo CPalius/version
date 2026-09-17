@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.0.5",
+            "released_at": "2026-09-18",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Patch: mention suggestion avatars no longer open full size, private messages gain mark-all-read, My Topics is paginated, and the who-is-online count splits into members, guests, search engines and bots.",
+            "notes": "releases/2.0.5.md"
+        },
+        {
             "version": "2.0.4",
             "released_at": "2026-09-18",
             "channel": "stable",

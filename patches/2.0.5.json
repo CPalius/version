@@ -1,0 +1,167 @@
+{
+    "schema": 1,
+    "version": "2.0.5",
+    "base": "2.0.4",
+    "released_at": "2026-09-18",
+    "critical": false,
+    "summary": "Mention avatari, okundu isaretleme, Konularim sayfalamasi ve cevrimici kirilimi",
+    "source": "https://raw.githubusercontent.com/CPalius/CPalius-Core/v2.0.5/",
+    "files": [
+        {
+            "path": "cp-content/modules/Forum/Controller/ForumToolsController.php",
+            "action": "write",
+            "sha256": "bee51ea48b83cb7f5722512a1b8f098a9694fe553728f2f0940fb7ad630ebf89",
+            "size": 15526
+        },
+        {
+            "path": "cp-content/modules/Forum/Entity/ForumPresence.php",
+            "action": "write",
+            "sha256": "e73ce6867995b44fd7066cc3e74a0158bd9c527a3f8ac0778c8e48b9560b9f02",
+            "size": 3033
+        },
+        {
+            "path": "cp-content/modules/Forum/EventListener/ForumPresenceListener.php",
+            "action": "write",
+            "sha256": "29694aaecb1a2d9bb501e1618e9ba87d3875bdd11b1dd42f32d0b278b517560f",
+            "size": 2325
+        },
+        {
+            "path": "cp-content/modules/Forum/Install/ForumPresenceKindSchema.php",
+            "action": "write",
+            "sha256": "b302732c172fbf2d8520a202c0619117538ef1f3733a1c23290b03359f55bd4f",
+            "size": 2409
+        },
+        {
+            "path": "cp-content/modules/Forum/Repository/ForumPresenceRepository.php",
+            "action": "write",
+            "sha256": "f25d57a0b2033533d9e7daa06da8ffa570ddb9b89adb939a686608496318affc",
+            "size": 3596
+        },
+        {
+            "path": "cp-content/modules/Forum/Resources/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "91eaadf04db4f8dfe5d334daa308300821a2c031dfd8fca7d5b24993d1eeff3c",
+            "size": 6048
+        },
+        {
+            "path": "cp-content/modules/Forum/Resources/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "aa3a2a78a5134617a93551d83f869649c09064869c825ae92069a3eaba4de179",
+            "size": 6400
+        },
+        {
+            "path": "cp-content/modules/Forum/Service/ForumPresenceService.php",
+            "action": "write",
+            "sha256": "23bc8ff68f88840bf1858360cba4313be361bed79f32aa63d9e7a1522dae08d9",
+            "size": 8133
+        },
+        {
+            "path": "cp-content/modules/Forum/Service/ForumVisitorKind.php",
+            "action": "write",
+            "sha256": "8272bb15b9a853b595cd7139d1692482cfc07f1197a252e3105ceec9f52817bb",
+            "size": 3540
+        },
+        {
+            "path": "cp-content/modules/Forum/Twig/ForumTwigExtension.php",
+            "action": "write",
+            "sha256": "57e3da1fdad3d94bbe6656ca1da12d5c3c199cab70413d482303f7062dd75018",
+            "size": 8438
+        },
+        {
+            "path": "cp-content/modules/Messages/Controller/MessagesFrontController.php",
+            "action": "write",
+            "sha256": "7fbe49372e772f8f03c785311e7c2e968999eb76041c59880666be1855ac4b2e",
+            "size": 18671
+        },
+        {
+            "path": "cp-content/modules/Messages/Repository/MessageParticipantRepository.php",
+            "action": "write",
+            "sha256": "b1b6fb97a08c1c5efaafe59644a20dcd11bc72becb8d10067d53e6f7c20705b3",
+            "size": 2207
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/translations/messages+intl-icu.en.yaml",
+            "action": "write",
+            "sha256": "3675ecc747ba9bf7dcaeaade6bc79599043d9b4a8c30451f38cd10744cf3bfbb",
+            "size": 9686
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/translations/messages+intl-icu.tr.yaml",
+            "action": "write",
+            "sha256": "5a3211c1b5da73fac862f5b69a8e4775b6be482d402d2270886e8cb1e99446bd",
+            "size": 9869
+        },
+        {
+            "path": "cp-content/modules/Messages/Resources/views/front/partials/header_alert.html.twig",
+            "action": "write",
+            "sha256": "0a3d592316468573d330d38c8d19e04c27d6e15f6f91a6651519989d66b3b66f",
+            "size": 2804
+        },
+        {
+            "path": "cp-content/modules/Messages/Service/MessagesThreadManager.php",
+            "action": "write",
+            "sha256": "87014cbb8fe10d0e6cab605c200e86e88c6a0f2c2d0602060790321e448ada9d",
+            "size": 9123
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/dist/forum.css",
+            "action": "write",
+            "sha256": "df1a550ec0dabdab3cf57bab7bc7b6e097948f6dcdb39557a520cd275f6a1393",
+            "size": 78140
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/dist/main.js",
+            "action": "write",
+            "sha256": "a3df4b70c3767849748d41e37c897d1f006f1b0f16e5a7f3c039ade31dacfc64",
+            "size": 20778
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/my_topics.html.twig",
+            "action": "write",
+            "sha256": "c759417722946432c97c1bb56d4aa5d1c43cb56350aa2611822e310adaa64c9b",
+            "size": 1572
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/online.html.twig",
+            "action": "write",
+            "sha256": "5adb41e863c243a656ce66403e09951495ab0b3780bb84448206561aaec1e599",
+            "size": 3059
+        },
+        {
+            "path": "cp-content/themes/cpalius-website/Resources/views/forum/partials/_stats_bar.html.twig",
+            "action": "write",
+            "sha256": "d46bb969af81b7d275d1dfe840de71353f2be8ba8b7b4c5cf18f9527bf52cd90",
+            "size": 4477
+        },
+        {
+            "path": "cp-core/migrations/Version20260918120000.php",
+            "action": "write",
+            "sha256": "c686daab52786d3ebf817789d47556ca360bdb76e83988c012f632fd0a17650c",
+            "size": 2441
+        },
+        {
+            "path": "cp-core/src/Controller/AccountNotificationController.php",
+            "action": "write",
+            "sha256": "2fac7c0e55e419c617e4e2626f0ccb72ca56f26d5ebd0a60657046cb3da13fc3",
+            "size": 3948
+        },
+        {
+            "path": "cp-core/src/Core/Version/CpVersion.php",
+            "action": "write",
+            "sha256": "5beeda348a1f0f7454465b9d4114392a93f7d813d5b60f1e8203e8765ff27c51",
+            "size": 2301
+        },
+        {
+            "path": "public/themes/cpalius-website/dist/forum.css",
+            "action": "write",
+            "sha256": "df1a550ec0dabdab3cf57bab7bc7b6e097948f6dcdb39557a520cd275f6a1393",
+            "size": 78140
+        },
+        {
+            "path": "public/themes/cpalius-website/dist/main.js",
+            "action": "write",
+            "sha256": "a3df4b70c3767849748d41e37c897d1f006f1b0f16e5a7f3c039ade31dacfc64",
+            "size": 20778
+        }
+    ]
+}

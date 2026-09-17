@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.0.4** · 2026-09-18 · channel: `stable`
+> **2.0.5** · 2026-09-18 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,9 +9,16 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.0.4.md](releases/2.0.4.md) · Turkish: [releases/2.0.4-tr.md](releases/2.0.4-tr.md)
+Full notes: [releases/2.0.5.md](releases/2.0.5.md) · Turkish: [releases/2.0.5-tr.md](releases/2.0.5-tr.md)
 
 **Highlights**
+
+- Patch on top of 2.0.4: mention suggestion avatars no longer open full size
+- Private messages gain "mark all as read"; both inbox flyouts clear without a page reload
+- "My topics" is paginated and follows the Studio per-page setting
+- Who-is-online splits into members, guests, search engines and bots, each with an icon
+
+Previously in 2.0.4:
 
 - Maintenance mode is enforced for the first time, with a multilingual heading and message
 - Operator-created mail templates, sent by hand to one member, a role, or every active member
@@ -29,6 +36,7 @@ Full notes: [releases/2.0.4.md](releases/2.0.4.md) · Turkish: [releases/2.0.4-t
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.0.5 | 2026-09-18 | stable | [releases/2.0.5.md](releases/2.0.5.md) |
 | 2.0.4 | 2026-09-18 | stable | [releases/2.0.4.md](releases/2.0.4.md) |
 | 2.0.1 | 2026-09-16 | stable | [releases/2.0.1.md](releases/2.0.1.md) |
 | 2.0.0 | 2026-09-16 | stable | [releases/2.0.0.md](releases/2.0.0.md) |
