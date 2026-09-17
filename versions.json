@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.0.4",
+            "released_at": "2026-09-18",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Maintenance mode now actually serves a page, operators can create and send their own mail templates, the cron URL and task schedules are on screen, and the forum gains mention autocomplete, hover cards, selection quoting, a postbit designer and a richer editor. Carries the unpublished 2.0.2 and 2.0.3 changes.",
+            "notes": "releases/2.0.4.md"
+        },
+        {
             "version": "2.0.1",
             "released_at": "2026-09-16",
             "channel": "stable",

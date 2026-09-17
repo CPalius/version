@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **1.0.0** · 2026-09-14 · channel: `stable`
+> **2.0.4** · 2026-09-18 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,18 +9,19 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-First stable release. Full notes: [releases/1.0.0.md](releases/1.0.0.md)
+Full notes: [releases/2.0.4.md](releases/2.0.4.md) · Turkish: [releases/2.0.4-tr.md](releases/2.0.4-tr.md)
 
 **Highlights**
 
-- Module system, role/capability authorisation, notification and global search infrastructure
-- Ten modules: Forum, Blog, Pages, Media, Menu, Seo, Roadmap, Whitepaper, Widget, Importer
-- Forum: section hierarchy, polls, attachments, drafts, topic split/merge, ban/mute, permission matrix
-- Importer: WordPress, Joomla, MyBB, XenForo and CSV
-- Seo: JSON-LD schema graph, per-source sitemaps
-- Multilingual content and interface
-- AACP administration panel, `cp:doctor` diagnostics
-- Version-tagged update hooks
+- Maintenance mode is enforced for the first time, with a multilingual heading and message
+- Operator-created mail templates, sent by hand to one member, a role, or every active member
+- The cron URL is shown in the panel, and scheduled task times are editable
+- Forum: mention autocomplete, profile links, `#N` post references, hover cards, selection quoting
+- Forum editor: headings, text sizes, text and highlight colours
+- Studio postbit designer: block visibility, order, and a custom CSS box
+- Blog related posts moved below the comments and became configurable
+- Fixed: telemetry and log rows were dropped whenever a request carried malformed UTF-8
+- Carries the 2.0.2 and 2.0.3 changes, which were tagged but never published here
 
 ---
 
@@ -28,6 +29,13 @@ First stable release. Full notes: [releases/1.0.0.md](releases/1.0.0.md)
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.0.4 | 2026-09-18 | stable | [releases/2.0.4.md](releases/2.0.4.md) |
+| 2.0.1 | 2026-09-16 | stable | [releases/2.0.1.md](releases/2.0.1.md) |
+| 2.0.0 | 2026-09-16 | stable | [releases/2.0.0.md](releases/2.0.0.md) |
+| 1.1.3 | 2026-09-16 | stable | [releases/1.1.3.md](releases/1.1.3.md) |
+| 1.1.2 | 2026-09-16 | stable | [releases/1.1.2.md](releases/1.1.2.md) |
+| 1.1.1 | 2026-09-16 | stable | [releases/1.1.1.md](releases/1.1.1.md) |
+| 1.1.0 | 2026-09-15 | stable | [releases/1.1.0.md](releases/1.1.0.md) |
 | 1.0.0 | 2026-09-14 | stable | [releases/1.0.0.md](releases/1.0.0.md) |
 
 ---
