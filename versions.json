@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.1.0",
+            "released_at": "2026-09-18",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Two-step verification gains an e-mail method, AACP sits behind a gate question, idle sessions are revoked on a schedule, and the forum gains a per-member word filter, self-service signatures, anti-bump and a longer edit window for the opening post.",
+            "notes": "releases/2.1.0.md"
+        },
+        {
             "version": "2.0.5",
             "released_at": "2026-09-18",
             "channel": "stable",

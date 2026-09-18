@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.0.5** · 2026-09-18 · channel: `stable`
+> **2.1.0** · 2026-09-18 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,26 +9,27 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.0.5.md](releases/2.0.5.md) · Turkish: [releases/2.0.5-tr.md](releases/2.0.5-tr.md)
+Full notes: [releases/2.1.0.md](releases/2.1.0.md) · Turkish: [releases/2.1.0-tr.md](releases/2.1.0-tr.md)
 
 **Highlights**
+
+- Two-step verification gains an e-mail method; each member picks app or e-mailed code
+- AACP sits behind a gate question, asked once per session
+- Idle sessions are revoked on a schedule, with a shorter limit for panel accounts
+- A Security page under the account area: your own open sessions and your second factor
+- Forum: a per-member word filter on topic titles
+- Forum: signatures are editable by the member again
+- Forum: anti-bump folds a consecutive self-reply into the post above it
+- Forum: the opening post gets its own, longer edit window
+- The type and spacing scale is fluid — unchanged at desktop width, scaling down on phones
+- Fixed: My Topics, Unread and Drafts were crushed against the left edge
+
+Previously in 2.0.5:
 
 - Patch on top of 2.0.4: mention suggestion avatars no longer open full size
 - Private messages gain "mark all as read"; both inbox flyouts clear without a page reload
 - "My topics" is paginated and follows the Studio per-page setting
-- Who-is-online splits into members, guests, search engines and bots, each with an icon
-
-Previously in 2.0.4:
-
-- Maintenance mode is enforced for the first time, with a multilingual heading and message
-- Operator-created mail templates, sent by hand to one member, a role, or every active member
-- The cron URL is shown in the panel, and scheduled task times are editable
-- Forum: mention autocomplete, profile links, `#N` post references, hover cards, selection quoting
-- Forum editor: headings, text sizes, text and highlight colours
-- Studio postbit designer: block visibility, order, and a custom CSS box
-- Blog related posts moved below the comments and became configurable
-- Fixed: telemetry and log rows were dropped whenever a request carried malformed UTF-8
-- Carries the 2.0.2 and 2.0.3 changes, which were tagged but never published here
+- Who-is-online split into members, guests, search engines and bots (collapsed back into a single total in 2.1.0)
 
 ---
 
@@ -36,6 +37,7 @@ Previously in 2.0.4:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.1.0 | 2026-09-18 | stable | [releases/2.1.0.md](releases/2.1.0.md) |
 | 2.0.5 | 2026-09-18 | stable | [releases/2.0.5.md](releases/2.0.5.md) |
 | 2.0.4 | 2026-09-18 | stable | [releases/2.0.4.md](releases/2.0.4.md) |
 | 2.0.1 | 2026-09-16 | stable | [releases/2.0.1.md](releases/2.0.1.md) |
