@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.1.1",
+            "released_at": "2026-09-21",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Forum spoilers that do not leak, optional visitor-only postbit and body hiding, a self-hosted font library, a homepage picker that names dormant modules, a cron lock against overlapping jobs, and a Studio shell a module can claim.",
+            "notes": "releases/2.1.1.md"
+        },
+        {
             "version": "2.1.0",
             "released_at": "2026-09-18",
             "channel": "stable",

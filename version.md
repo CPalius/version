@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.1.0** · 2026-09-18 · channel: `stable`
+> **2.1.1** · 2026-09-21 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,27 +9,24 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.1.0.md](releases/2.1.0.md) · Turkish: [releases/2.1.0-tr.md](releases/2.1.0-tr.md)
+Full notes: [releases/2.1.1.md](releases/2.1.1.md) · Turkish: [releases/2.1.1-tr.md](releases/2.1.1-tr.md)
 
 **Highlights**
+
+- Forum spoilers that drop their inner HTML when locked, so View Source and quotes cannot leak them
+- Optional visitor-only slimmer postbit and hidden post bodies; search engines still see the full page
+- A self-hosted font library under AACP → Appearance, with Roboto, Roboto Condensed and JetBrains Mono shipped
+- The homepage picker moved to Appearance and names dormant modules instead of hiding them
+- A cron lock so a scheduled job cannot overlap itself, including the Run Now button
+- A Studio shell a module can claim, without being able to hide AACP
+- Fixed: module scripts 404'd when the import map used a relative `./` path
+
+Previously in 2.1.0:
 
 - Two-step verification gains an e-mail method; each member picks app or e-mailed code
 - AACP sits behind a gate question, asked once per session
 - Idle sessions are revoked on a schedule, with a shorter limit for panel accounts
-- A Security page under the account area: your own open sessions and your second factor
-- Forum: a per-member word filter on topic titles
-- Forum: signatures are editable by the member again
-- Forum: anti-bump folds a consecutive self-reply into the post above it
-- Forum: the opening post gets its own, longer edit window
-- The type and spacing scale is fluid — unchanged at desktop width, scaling down on phones
-- Fixed: My Topics, Unread and Drafts were crushed against the left edge
-
-Previously in 2.0.5:
-
-- Patch on top of 2.0.4: mention suggestion avatars no longer open full size
-- Private messages gain "mark all as read"; both inbox flyouts clear without a page reload
-- "My topics" is paginated and follows the Studio per-page setting
-- Who-is-online split into members, guests, search engines and bots (collapsed back into a single total in 2.1.0)
+- Forum: per-member word filter, self-service signatures, anti-bump, longer opening-post edit window
 
 ---
 
@@ -37,6 +34,7 @@ Previously in 2.0.5:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.1.1 | 2026-09-21 | stable | [releases/2.1.1.md](releases/2.1.1.md) |
 | 2.1.0 | 2026-09-18 | stable | [releases/2.1.0.md](releases/2.1.0.md) |
 | 2.0.5 | 2026-09-18 | stable | [releases/2.0.5.md](releases/2.0.5.md) |
 | 2.0.4 | 2026-09-18 | stable | [releases/2.0.4.md](releases/2.0.4.md) |
