@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.1.1** · 2026-09-21 · channel: `stable`
+> **2.1.2** · 2026-09-22 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,19 +9,17 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.1.1.md](releases/2.1.1.md) · Turkish: [releases/2.1.1-tr.md](releases/2.1.1-tr.md)
+Full notes: [releases/2.1.2.md](releases/2.1.2.md) · Turkish: [releases/2.1.2-tr.md](releases/2.1.2-tr.md)
 
 **Highlights**
 
-- Forum spoilers that drop their inner HTML when locked, so View Source and quotes cannot leak them
-- Optional visitor-only slimmer postbit and hidden post bodies; search engines still see the full page
-- A self-hosted font library under AACP → Appearance, with Roboto, Roboto Condensed and JetBrains Mono shipped
-- The homepage picker moved to Appearance and names dormant modules instead of hiding them
-- A cron lock so a scheduled job cannot overlap itself, including the Run Now button
-- A Studio shell a module can claim, without being able to hide AACP
-- Fixed: module scripts 404'd when the import map used a relative `./` path
+- Forum counters increment in O(1) along the ancestor path; `COUNT(*)` is legal only on recount
+- Deny-Wins ACL: Inherit / Allow / Deny, four layers, sparse persist
+- Local moderators, ban filters, passworded sections, a banned page
+- Studio desk grouped as Structure / Permissions / Moderation / People / Settings
+- Settings hub with cards; cockpit is attention, health and five shortcuts
 
-Previously in 2.1.0:
+Previously in 2.1.1:
 
 - Two-step verification gains an e-mail method; each member picks app or e-mailed code
 - AACP sits behind a gate question, asked once per session
@@ -34,6 +32,7 @@ Previously in 2.1.0:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.1.2 | 2026-09-22 | stable | [releases/2.1.2.md](releases/2.1.2.md) |
 | 2.1.1 | 2026-09-21 | stable | [releases/2.1.1.md](releases/2.1.1.md) |
 | 2.1.0 | 2026-09-18 | stable | [releases/2.1.0.md](releases/2.1.0.md) |
 | 2.0.5 | 2026-09-18 | stable | [releases/2.0.5.md](releases/2.0.5.md) |

@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.1.2",
+            "released_at": "2026-09-22",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Forum O(1) counters, Deny-Wins ACL, passworded sections, and a Studio desk that keeps structure, permissions and cases apart.",
+            "notes": "releases/2.1.2.md"
+        },
+        {
             "version": "2.1.1",
             "released_at": "2026-09-21",
             "channel": "stable",
