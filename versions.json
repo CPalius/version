@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.1.4",
+            "released_at": "2026-09-22",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Hotfix: cp:update adds the forum translation-group column that 2.1.3 mapped but did not apply, and pending module SQL runs even when module.json did not move.",
+            "notes": "releases/2.1.4.md"
+        },
+        {
             "version": "2.1.3",
             "released_at": "2026-09-22",
             "channel": "stable",

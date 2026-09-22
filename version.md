@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.1.3** · 2026-09-22 · channel: `stable`
+> **2.1.4** · 2026-09-22 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,9 +9,15 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.1.3.md](releases/2.1.3.md) · Turkish: [releases/2.1.3-tr.md](releases/2.1.3-tr.md)
+Full notes: [releases/2.1.4.md](releases/2.1.4.md) · Turkish: [releases/2.1.4-tr.md](releases/2.1.4-tr.md)
 
 **Highlights**
+
+- `cp:update` now adds the forum `translation_group_id` column that 2.1.3 mapped but did not apply
+- Pending module `.sql` files run even when `module.json` did not move
+- BanGuard still boots against a stale 2.1.2 compiled container
+
+Previously in 2.1.3:
 
 - Independent Ai module translates Forum, Blog and Pages on create and edit
 - Studio post list searches live across locales without a page reload
@@ -32,6 +38,7 @@ Previously in 2.1.2:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.1.4 | 2026-09-22 | stable | [releases/2.1.4.md](releases/2.1.4.md) |
 | 2.1.3 | 2026-09-22 | stable | [releases/2.1.3.md](releases/2.1.3.md) |
 | 2.1.2 | 2026-09-22 | stable | [releases/2.1.2.md](releases/2.1.2.md) |
 | 2.1.1 | 2026-09-21 | stable | [releases/2.1.1.md](releases/2.1.1.md) |
