@@ -1,6 +1,6 @@
 # CPalius CMF — Current Release
 
-> **2.1.2** · 2026-09-22 · channel: `stable`
+> **2.1.3** · 2026-09-22 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) — when you change the version, change **both**.
@@ -9,9 +9,16 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.1.2.md](releases/2.1.2.md) · Turkish: [releases/2.1.2-tr.md](releases/2.1.2-tr.md)
+Full notes: [releases/2.1.3.md](releases/2.1.3.md) · Turkish: [releases/2.1.3-tr.md](releases/2.1.3-tr.md)
 
 **Highlights**
+
+- Independent Ai module translates Forum, Blog and Pages on create and edit
+- Studio post list searches live across locales without a page reload
+- Website header search shows grouped hits as you type
+- Profile inbox keeps only unread notifications and messages
+
+Previously in 2.1.2:
 
 - Forum counters increment in O(1) along the ancestor path; `COUNT(*)` is legal only on recount
 - Deny-Wins ACL: Inherit / Allow / Deny, four layers, sparse persist
@@ -19,19 +26,13 @@ Full notes: [releases/2.1.2.md](releases/2.1.2.md) · Turkish: [releases/2.1.2-t
 - Studio desk grouped as Structure / Permissions / Moderation / People / Settings
 - Settings hub with cards; cockpit is attention, health and five shortcuts
 
-Previously in 2.1.1:
-
-- Two-step verification gains an e-mail method; each member picks app or e-mailed code
-- AACP sits behind a gate question, asked once per session
-- Idle sessions are revoked on a schedule, with a shorter limit for panel accounts
-- Forum: per-member word filter, self-service signatures, anti-bump, longer opening-post edit window
-
 ---
 
 ## Release history
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.1.3 | 2026-09-22 | stable | [releases/2.1.3.md](releases/2.1.3.md) |
 | 2.1.2 | 2026-09-22 | stable | [releases/2.1.2.md](releases/2.1.2.md) |
 | 2.1.1 | 2026-09-21 | stable | [releases/2.1.1.md](releases/2.1.1.md) |
 | 2.1.0 | 2026-09-18 | stable | [releases/2.1.0.md](releases/2.1.0.md) |
