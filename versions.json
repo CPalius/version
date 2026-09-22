@@ -3,6 +3,30 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.2",
+            "released_at": "2026-09-23",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Per-user capability overlay on AACP (deny wins, system.* not grantable), themed 404/403 pages, and Studio SEO redirects for dead URLs.",
+            "notes": "releases/2.2.2.md"
+        },
+        {
+            "version": "2.2.1",
+            "released_at": "2026-09-23",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Updates compile the importmap after files land; rebuild buttons use /js/studio-rebuild.js instead of a hashed AssetMapper file.",
+            "notes": "releases/2.2.1.md"
+        },
+        {
+            "version": "2.2.0",
+            "released_at": "2026-09-22",
+            "channel": "stable",
+            "critical": false,
+            "summary": "DnsTools as a first-class module, header search, keyed REST, Studio rebuild desk, and tagged sitemap sources.",
+            "notes": "releases/2.2.0.md"
+        },
+        {
             "version": "2.1.4",
             "released_at": "2026-09-22",
             "channel": "stable",
