@@ -1,6 +1,6 @@
 # CPalius CMF - Current Release
 
-> **2.2.0** · 2026-09-22 · channel: `stable`
+> **2.2.1** · 2026-09-23 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) - when you change the version, change **both**.
@@ -9,9 +9,16 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.2.0.md](releases/2.2.0.md) · Turkish: [releases/2.2.0-tr.md](releases/2.2.0-tr.md)
+Full notes: [releases/2.2.1.md](releases/2.2.1.md) · Turkish: [releases/2.2.1-tr.md](releases/2.2.1-tr.md)
 
 **Highlights**
+
+- Zip / patch / `cp:update` compile the importmap after files land
+- Rebuild runner ships as `/js/studio-rebuild.js` (no hashed AssetMapper file)
+- Twig `asset()` is an alias of `cp_asset()` so a missing Symfony Asset component does not 500
+- AACP asset rebuild dumps the importmap, not only Tailwind
+
+Previously in 2.2.0:
 
 - DnsTools: 50+ public DNS, mail and network tools with per-page SEO
 - Header global search includes enabled tools
@@ -38,6 +45,7 @@ Previously in 2.1.3:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.2.1 | 2026-09-23 | stable | [releases/2.2.1.md](releases/2.2.1.md) |
 | 2.2.0 | 2026-09-22 | stable | [releases/2.2.0.md](releases/2.2.0.md) |
 | 2.1.4 | 2026-09-22 | stable | [releases/2.1.4.md](releases/2.1.4.md) |
 | 2.1.3 | 2026-09-22 | stable | [releases/2.1.3.md](releases/2.1.3.md) |
