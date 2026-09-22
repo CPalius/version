@@ -1,6 +1,6 @@
 # CPalius CMF - Current Release
 
-> **2.2.1** · 2026-09-23 · channel: `stable`
+> **2.2.2** · 2026-09-23 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) - when you change the version, change **both**.
@@ -9,9 +9,16 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.2.1.md](releases/2.2.1.md) · Turkish: [releases/2.2.1-tr.md](releases/2.2.1-tr.md)
+Full notes: [releases/2.2.2.md](releases/2.2.2.md) · Turkish: [releases/2.2.2-tr.md](releases/2.2.2-tr.md)
 
 **Highlights**
+
+- Per-user capability overlay on AACP user edit (inherit / grant / deny; deny wins)
+- `system.*` cannot be granted through the overlay; last-admin and self-lock are refused
+- Themed 404 / 403 pages replace Symfony's default error screen
+- Studio SEO redirects send dead public URLs to a chosen destination
+
+Previously in 2.2.1:
 
 - Zip / patch / `cp:update` compile the importmap after files land
 - Rebuild runner ships as `/js/studio-rebuild.js` (no hashed AssetMapper file)
@@ -45,6 +52,7 @@ Previously in 2.1.3:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.2.2 | 2026-09-23 | stable | [releases/2.2.2.md](releases/2.2.2.md) |
 | 2.2.1 | 2026-09-23 | stable | [releases/2.2.1.md](releases/2.2.1.md) |
 | 2.2.0 | 2026-09-22 | stable | [releases/2.2.0.md](releases/2.2.0.md) |
 | 2.1.4 | 2026-09-22 | stable | [releases/2.1.4.md](releases/2.1.4.md) |
