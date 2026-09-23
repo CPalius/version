@@ -1,6 +1,6 @@
 # CPalius CMF - Current Release
 
-> **2.2.2** · 2026-09-23 · channel: `stable`
+> **2.2.3** · 2026-09-23 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) - when you change the version, change **both**.
@@ -9,9 +9,17 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.2.2.md](releases/2.2.2.md) · Turkish: [releases/2.2.2-tr.md](releases/2.2.2-tr.md)
+Full notes: [releases/2.2.3.md](releases/2.2.3.md) · Turkish: [releases/2.2.3-tr.md](releases/2.2.3-tr.md)
 
 **Highlights**
+
+- Importer source kinds: WXR, SQL dump, or remote MySQL; pick which steps run
+- Board files: WordPress uploads, XenForo `data/`, MyBB `uploads/` (avatars and attachments)
+- Forum leftover BBCode rewrites on view; XenForo smilies import
+- AACP user edit holds the full profile; overlay capabilities use language labels
+- After password login, an e-mail code is asked when SMTP works
+
+Previously in 2.2.2:
 
 - Per-user capability overlay on AACP user edit (inherit / grant / deny; deny wins)
 - `system.*` cannot be granted through the overlay; last-admin and self-lock are refused
@@ -52,6 +60,7 @@ Previously in 2.1.3:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.2.3 | 2026-09-23 | stable | [releases/2.2.3.md](releases/2.2.3.md) |
 | 2.2.2 | 2026-09-23 | stable | [releases/2.2.2.md](releases/2.2.2.md) |
 | 2.2.1 | 2026-09-23 | stable | [releases/2.2.1.md](releases/2.2.1.md) |
 | 2.2.0 | 2026-09-22 | stable | [releases/2.2.0.md](releases/2.2.0.md) |
