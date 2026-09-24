@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.5",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Updates keep the shipped Tailwind CSS instead of deleting the stylesheet manifest when the server cannot rebuild it.",
+            "notes": "releases/2.2.5.md"
+        },
+        {
             "version": "2.2.4",
             "released_at": "2026-09-24",
             "channel": "stable",
