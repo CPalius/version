@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.11",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Reliability fix: a module deleted by hand (files removed without deactivating first) could crash unrelated pages instead of being quarantined; Forum's post rendering no longer hard-depends on the Importer module; seven call sites reading performance-backend status now share one per-request lookup instead of each querying independently, closing a recurring query-budget failure.",
+            "notes": "releases/2.2.11.md"
+        },
+        {
             "version": "2.2.10",
             "released_at": "2026-09-24",
             "channel": "stable",
