@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.7",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Fixes a module migration parser bug that could leave a table or column never created, a stale-container bug in the asset compiler, and isolates modules that wire themselves directly onto Symfony kernel events.",
+            "notes": "releases/2.2.7.md"
+        },
+        {
             "version": "2.2.6",
             "released_at": "2026-09-24",
             "channel": "stable",
