@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.14",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Root fix for the container-rebuild-after-cache-clear gap 2.2.12/2.2.13 only closed at two of its eight call sites: the guarantee now lives inside the one shared low-level method every clearSymfonyCache() caller already goes through, so it applies everywhere, including places not yet individually patched. A failed rebuild's real output is now visible on the AACP Updates screen instead of only surfacing as an unrelated downstream crash.",
+            "notes": "releases/2.2.14.md"
+        },
+        {
             "version": "2.2.13",
             "released_at": "2026-09-25",
             "channel": "stable",
