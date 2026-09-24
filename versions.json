@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.10",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Security release: encrypts a Redis password that was stored in plain text, gives each install its own Redis session-key prefix, closes a pre-auth account-enumeration leak at login, sanitizes AI-translated content and forum bios before they render, and closes a DNS-rebinding bypass in the DnsTools SSRF guard.",
+            "notes": "releases/2.2.10.md"
+        },
+        {
             "version": "2.2.9",
             "released_at": "2026-09-24",
             "channel": "stable",
