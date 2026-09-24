@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.9",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": true,
+            "summary": "A full-release update now auto-completes update hooks, module upgrades, config import and cache rebuild after files/schema land, instead of leaving them pending until a second manual click.",
+            "notes": "releases/2.2.9.md"
+        },
+        {
             "version": "2.2.8",
             "released_at": "2026-09-24",
             "channel": "stable",
