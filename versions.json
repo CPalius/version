@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.8",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Fixes a shared-Redis cache-namespace collision: two CPalius installs on the same Redis server could overwrite each other's cached site settings.",
+            "notes": "releases/2.2.8.md"
+        },
+        {
             "version": "2.2.7",
             "released_at": "2026-09-24",
             "channel": "stable",
