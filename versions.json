@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.16",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Removes the forced, mid-request cache-directory purge path entirely — the second, unfixed cause of the update-time crash 2.2.11-2.2.15 kept encountering. Every cache clear is now unconditionally deferred to kernel.terminate, so nothing running afterward in that request (including Symfony's own automatic kernel.response/terminate listeners) can ever reach for a container file the request itself just deleted.",
+            "notes": "releases/2.2.16.md"
+        },
+        {
             "version": "2.2.15",
             "released_at": "2026-09-25",
             "channel": "stable",
