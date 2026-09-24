@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.13",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "AACP's manual \"Clear Symfony Cache\" button now rebuilds the container the same way 2.2.12 made updates do, instead of leaving it empty for whichever request compiles it next. Also documents a one-time container error you may see during the specific request that installs 2.2.12 or later from an older version — expected, not a new bug; see the release notes for the one-time manual recovery step.",
+            "notes": "releases/2.2.13.md"
+        },
+        {
             "version": "2.2.12",
             "released_at": "2026-09-25",
             "channel": "stable",
