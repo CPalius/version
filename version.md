@@ -1,6 +1,6 @@
 # CPalius CMF - Current Release
 
-> **2.2.5** · 2026-09-24 · channel: `stable`
+> **2.2.6** · 2026-09-24 · channel: `stable`
 
 This file is **for humans**. Installations check for updates through
 [`latest.json`](latest.json) - when you change the version, change **both**.
@@ -9,9 +9,13 @@ This file is **for humans**. Installations check for updates through
 
 ## What is in this release
 
-Full notes: [releases/2.2.5.md](releases/2.2.5.md) · Turkish: [releases/2.2.5-tr.md](releases/2.2.5-tr.md)
+Full notes: [releases/2.2.6.md](releases/2.2.6.md) · Turkish: [releases/2.2.6-tr.md](releases/2.2.6-tr.md)
 
 **Highlights**
+
+- Updates no longer turn switched-off modules back on
+
+Previously in 2.2.5:
 
 - Critical: an update no longer deletes the stylesheet manifest when Tailwind cannot run on the server
 - The built CSS ships in the package and is copied into place before assets compile
@@ -74,6 +78,7 @@ Previously in 2.1.3:
 
 | Version | Date | Channel | Notes |
 |---|---|---|---|
+| 2.2.6 | 2026-09-24 | stable | [releases/2.2.6.md](releases/2.2.6.md) |
 | 2.2.5 | 2026-09-24 | stable | [releases/2.2.5.md](releases/2.2.5.md) |
 | 2.2.4 | 2026-09-24 | stable | [releases/2.2.4.md](releases/2.2.4.md) |
 | 2.2.3 | 2026-09-23 | stable | [releases/2.2.3.md](releases/2.2.3.md) |

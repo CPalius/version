@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.6",
+            "released_at": "2026-09-24",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Updates keep the site's module on/off list and still refresh module code.",
+            "notes": "releases/2.2.6.md"
+        },
+        {
             "version": "2.2.5",
             "released_at": "2026-09-24",
             "channel": "stable",
