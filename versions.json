@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.12",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Reliability fix: the compiled DI container is now rebuilt in its own dedicated process immediately after an update clears it, instead of being left to whichever request happens to compile it next — closing the window that let an update's own automatic follow-up step (or a live visitor) hit a partially-built container and fail.",
+            "notes": "releases/2.2.12.md"
+        },
+        {
             "version": "2.2.11",
             "released_at": "2026-09-25",
             "channel": "stable",
