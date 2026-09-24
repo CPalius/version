@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.15",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "The actual root fix for the update-time container crash 2.2.11-2.2.14 addressed adjacent symptoms of: the compiled container was being cleared before migrations ran in the same request, not after, deleting files a lazily-resolved service needed a moment later. Reordered so the container now survives until migrations (and the equivalent resume/rollback recovery actions) are done with it.",
+            "notes": "releases/2.2.15.md"
+        },
+        {
             "version": "2.2.14",
             "released_at": "2026-09-25",
             "channel": "stable",
