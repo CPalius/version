@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.17",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "No functional change — a diagnostic release. Every file is identical to 2.2.16 except the version constant, to test whether the update-time container crash still occurs when the code installing the update is already 2.2.16 (a one-time transitional effect of self-updating a live PHP process was the suspected remaining cause, not a bug in 2.2.16 itself).",
+            "notes": "releases/2.2.17.md"
+        },
+        {
             "version": "2.2.16",
             "released_at": "2026-09-25",
             "channel": "stable",
