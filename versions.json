@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.24",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Visual redesign of the VisitorStats admin page's charts, no data or schema changes: the 31-day view moves from plain CSS bars to a smooth two-series Chart.js line/area chart (total visits + unique visitors, with a legend), and the 12-month view moves to a Chart.js bar chart -- both using the same charting library already bundled for the AACP dashboard's own trend chart.",
+            "notes": "releases/2.2.24.md"
+        },
+        {
             "version": "2.2.23",
             "released_at": "2026-09-25",
             "channel": "stable",
