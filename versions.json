@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.21",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Security Center now shows live threat data (feed, vector breakdown, top offending IPs) instead of only a posture checklist and a bare IP-ban form. Page-view counting is split out of core into an optional VisitorStats module (core depends only on two small interfaces, nullable) with its own admin page showing real daily history; an update hook activates the module automatically on upgrade so existing sites keep counting visitors exactly as before.",
+            "notes": "releases/2.2.21.md"
+        },
+        {
             "version": "2.2.20",
             "released_at": "2026-09-25",
             "channel": "stable",
