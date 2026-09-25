@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.20",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Telemetry and visitor statistics no longer share a table: page views are counted into three small new tables instead of logging one row per hit, and clearing security telemetry can no longer wipe visitor history with it (previously the same purge action, unfiltered by event_type, deleted both). Also moves the forum's unread/drafts/my-topics/mark-all-read row from the top of the board to the bottom, restyled to match the stats bar it now sits beside.",
+            "notes": "releases/2.2.20.md"
+        },
+        {
             "version": "2.2.19",
             "released_at": "2026-09-25",
             "channel": "stable",
