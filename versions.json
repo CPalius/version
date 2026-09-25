@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.22",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Design follow-up to 2.2.21: Security Center's live-threats card and audit-findings card merge into one card with two tabs (threats first), and the threat table's uneven JSON-details column is dropped. The VisitorStats admin page's single table is replaced with two CSS bar charts from the same existing data — 31 daily bars, 12 monthly bars summed from the daily rows, both zero-filled so no day/month is silently skipped.",
+            "notes": "releases/2.2.22.md"
+        },
+        {
             "version": "2.2.21",
             "released_at": "2026-09-25",
             "channel": "stable",
