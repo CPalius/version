@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.19",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": false,
+            "summary": "A busy AACP page could log a caught, non-fatal MaxQueriesExceededException from update-hook inspection: several individually-correct, per-request-memoized internal settings readers (UpdateHookLedger, ReleaseChecker) each ran their own separate query against cp_settings, and enough of them on one page tripped the ten-per-table N+1 guard. Added SettingsRegistry::getRaw() so internal bookkeeping keys share the same batch-loaded, cached values map as everything else instead of querying separately.",
+            "notes": "releases/2.2.19.md"
+        },
+        {
             "version": "2.2.18",
             "released_at": "2026-09-25",
             "channel": "stable",
