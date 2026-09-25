@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.23",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Registration email verification and login email verification were the same setting read live at two moments -- turning on verification for new signups immediately refused login for every existing account too. Added an independent 'Refuse Login Until Verified' setting (defaults on, no behavior change for existing sites). Fixed an uncaught InvalidTypeException crashing any admin user save (including password changes) when the bio field was empty -- a Symfony TextareaType/nullable-property mismatch. Gave a routine 403 (posting without rights) a proper log message instead of an empty one.",
+            "notes": "releases/2.2.23.md"
+        },
+        {
             "version": "2.2.22",
             "released_at": "2026-09-25",
             "channel": "stable",

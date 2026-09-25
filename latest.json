@@ -2,19 +2,19 @@
     "$comment": "CPalius CMF release pointer. THIS FILE IS READ BY MACHINES - do not change its shape, only its values. For humans, see version.md and the releases/ folder.",
     "schema": 1,
     "channel": "stable",
-    "version": "2.2.22",
+    "version": "2.2.23",
     "released_at": "2026-09-25",
-    "critical": false,
+    "critical": true,
     "requires": {
         "php": ">=8.4",
         "upgrade_from": ">=1.0.0"
     },
     "notes": {
-        "url": "https://github.com/CPalius/version/blob/main/releases/2.2.22.md",
-        "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/2.2.22.md"
+        "url": "https://github.com/CPalius/version/blob/main/releases/2.2.23.md",
+        "raw": "https://raw.githubusercontent.com/CPalius/version/main/releases/2.2.23.md"
     },
     "download": {
-        "zip": "https://github.com/CPalius/CPalius-Core/releases/download/v2.2.22/cpalius-2.2.22.zip",
-        "sha256": "a2044008a8d65a6c7d20d45a1a4f03f852548b4718abe81c99f5b912570d6650"
+        "zip": "https://github.com/CPalius/CPalius-Core/releases/download/v2.2.23/cpalius-2.2.23.zip",
+        "sha256": "65886386408603727415d644f2120c4af8833c3c3b124d0d068aa64a55eb6a0b"
     }
 }
