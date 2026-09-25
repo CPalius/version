@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.18",
+            "released_at": "2026-09-25",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Fixes the same class of container-rebuild crash 2.2.11-2.2.16 chased, in a place none of them touched: AACP's module delete/deactivate. ModuleActivator::clearCache() hand-rolled its own synchronous, non-rebuilding cache:clear instead of using CacheRebuildManager, guaranteeing an inline compile on the admin's own next click; deleting a module also removed its files before any cache clearing, so its Twig template path (baked into the still-current container) threw LoaderError on every request until the container caught up. Both fixed: routed through CacheRebuildManager, file removal deferred until after the rebuild.",
+            "notes": "releases/2.2.18.md"
+        },
+        {
             "version": "2.2.17",
             "released_at": "2026-09-25",
             "channel": "stable",
