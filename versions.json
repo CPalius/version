@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.25",
+            "released_at": "2026-09-26",
+            "channel": "stable",
+            "critical": true,
+            "summary": "Public forum profiles, the reputation list and notification sender names showed members e-mail addresses whenever an account had no first/last name (nearly every account imported from XenForo) -- now name, then username, never the e-mail. Adds forgot-password / reset-password (single-use one-hour link, hashed token, rate-limited, signs out everywhere). Forum topics and blog posts now pass Google structured-data checks (text, comment[], author.url; software posts no longer emit an always-invalid SoftwareApplication; videos get thumbnailUrl/uploadDate), titles are no longer double-escaped, shared posts carry their own og:title. Sign-in screens show the CPalius logo and the site name. No schema changes.",
+            "notes": "releases/2.2.25.md"
+        },
+        {
             "version": "2.2.24",
             "released_at": "2026-09-25",
             "channel": "stable",
