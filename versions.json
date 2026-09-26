@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.27",
+            "released_at": "2026-09-26",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Blog list layout fix: the cover image could run about 40px under the post title and excerpt (aspect-ratio plus height:100% made its width follow the row height); it now stays in its column, and posts without a cover no longer leave an empty column. No schema changes.",
+            "notes": "releases/2.2.27.md"
+        },
+        {
             "version": "2.2.26",
             "released_at": "2026-09-26",
             "channel": "stable",
