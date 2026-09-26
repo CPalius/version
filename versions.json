@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.26",
+            "released_at": "2026-09-26",
+            "channel": "stable",
+            "critical": false,
+            "summary": "Design, accessibility and security pass across the homepage, blog and forum: member bios and post bodies are sanitized at render time (the importer bypassed the admin-form sanitizer); long forum topics no longer stay blank on phones; accessible contrast, focus ring, skip link and landmarks; keyboard and touch support for forum widgets; locale-aware blog dates; thumbnails for covers and avatars; new homepage hero; forum feeds off the homepage; navigation collapses below 1200px. No schema changes.",
+            "notes": "releases/2.2.26.md"
+        },
+        {
             "version": "2.2.25",
             "released_at": "2026-09-26",
             "channel": "stable",
