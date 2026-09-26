@@ -3,6 +3,14 @@
     "schema": 1,
     "versions": [
         {
+            "version": "2.2.28",
+            "released_at": "2026-09-26",
+            "channel": "stable",
+            "critical": false,
+            "summary": "The shortcut bar under forum pages is removed; while browsing the forum, the header user menu opens in two columns with a Forum column (unread, my topics, drafts, mark read). Elsewhere the menu is unchanged. No schema changes.",
+            "notes": "releases/2.2.28.md"
+        },
+        {
             "version": "2.2.27",
             "released_at": "2026-09-26",
             "channel": "stable",
